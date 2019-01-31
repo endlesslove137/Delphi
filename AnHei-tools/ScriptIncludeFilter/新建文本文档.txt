@@ -1,0 +1,88 @@
+procedure PerProcessLuaScript(sScritpFileName, sPatch: string; ScriptList: TStrings);
+const
+  sIncludeIdent = '--#include ';
+  sFunctions = 'Functions\';
+  slanguage = 'language\';
+var
+  I, nCount, J, nPos: Integer;
+  sLine, sFile, sInclude,sPath: string;
+  SL, Includeed: TStrings;
+  boFound: Boolean;
+begin
+  Includeed := TStringList.Create;
+  SL := TStringList.Create;
+  (Includeed as TStringList).Sorted := True;
+
+  nCount := ScriptList.Count;
+  I := 0;
+  sPath := '';
+  while I < nCount do
+  begin
+    sLine := ScriptList[I];
+
+    if (Length(sLine) > Length(sIncludeIdent)) and (StrLIComp(PChar(sLine), sIncludeIdent, Length(sIncludeIdent)) = 0) then
+    begin
+      sInclude := '';
+      nPos := Pos('"', sLine);
+      if nPos > 0 then
+      begin
+        sLine := Copy(sLine, nPos + 1, Length(sLine) - nPos);
+        nPos := Pos('"', sLine);
+        if nPos > 0 then
+        begin
+          sInclude := Copy(sLine, 1, nPos - 1);
+        end;
+      end;
+      
+      sFile := sPatch + sInclude;
+      boFound := FileExists(  sFile );
+      if not boFound then
+      begin
+        sFile := g_sEngineRoot + sPatch + sInclude;
+        boFound := FileExists(  sFile );
+      end;
+      if not boFound then
+      begin
+        sFile := sPath + sInclude;
+        boFound := FileExists(  sFile );
+      end;
+      if not boFound then
+      begin
+        sFile := g_sEngineRoot + '\config\item\' + sInclude;
+        boFound := FileExists(  sFile );
+      end;
+      if not boFound then
+      begin
+        sFile := g_sEngineRoot + '\config\store\' + sInclude;
+        boFound := FileExists(  sFile );
+      end;
+      if not boFound then
+      begin
+        sFile := g_sEngineRoot + '\config\quest\' + sInclude;
+        boFound := FileExists(  sFile );
+      end;
+      if boFound then
+      begin
+        sFile := ExpandFileName( sFile );
+        sPath := ExtractFilePath(sFile);
+        if Includeed.IndexOf( sFile ) < 0 then
+        begin
+          Includeed.Add( sFile );
+          SL.Text := LoadUTFFile(sFile);
+          ScriptList[I] := '';
+          for J := 0 to SL.Count - 1 do
+          begin
+            ScriptList.Insert( I + 1 + J, SL[J] );
+          end;
+          Inc( nCount, SL.Count );
+        end;
+      end
+      else begin
+        ShowMessage( Format('[脚本错误]"%s"包含文件"%s"未找到', [sScritpFileName, sFile]) );
+      end;
+    end;
+    Inc( I );
+  end;     
+  SL.Free;
+  Includeed.Free;
+end;

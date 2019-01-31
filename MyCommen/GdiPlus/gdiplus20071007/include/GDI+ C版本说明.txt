@@ -1,0 +1,14 @@
+GDI+ C版本说明：
+    GDI+是C++中常用的一种图形图像工具，VB、Delphi等语言也移植了GDI+，.net的诸多语言甚至完全采用GDI+作为绘制其界面。
+    在Winsows系统下，几乎所有的API都是直接针对C语言的，除C/C++可直接使用这些API外，其它各种语言都必须移植这些API方法，而唯独GDI+，微软提供的Gdiplus头文件，从类型定义到方法接口，都是针对C++写的，这就使得C语言没法使用这些面向对象的方法，即使是GDI+提供的原始API，如果不重新定义其参数中众多的数据类型，C语言也是没法使用的。
+    也是是因为C语言不适合编写Windows界面应用程序，所以至今没有发现GDI+的C版本（也许有，但我没发现）。因为我是一个业余编程爱好者，平时喜欢摆弄下C/C++、Delphi等，所以用了一些时间，在GDI+的C++版本基础上进行改编了一个C语言的GDI+版本，在改写的过程中，我才知道没发现GDI+的C版本的一个可能的原因是：C++版本中的众多的重载函数，缺省参数，用C来写却是头都大了，不知道用什么函数名才好（考虑GDI+使用了这些年，新的函数名不应与原函数名偏离太远）。
+    对于改写的GDI+ C版本，作如下说明：
+    一、函数命名，采用下面的几个原则来进行：
+    1、尽量按C++版本的GDI+类名作为各种GDI+对象函数名的前缀。如C++原先的Graphics类的函数，前缀都冠以Graphics；对那些原本类名很长的类适当进行了一些简化，如StringFormat函数的前缀简化为StrFormat、ImageAttributes函数的前缀为ImageAttr、LinearGradientBrush函数的前缀为LineBrush、PathGradientBrush函数的前缀为PathBrush等等。
+    2、C++版本各个类的构造函数和析构函数命名为xxxxCreate和xxxxDelete，其中的xxxx为前缀，如原ImageAttributes类的构造、析构函数名称分别为ImageAttrCreate和ImageAttrDelete等；对于多个构造函数的类，以一个常用的函数命名为xxxxCreate，其余的命名为xxxxFrom****。
+    3、对原先的重载函数，以最常用的保留原函数名，其余的冠以一些简单的后缀语义区分；对某些以浮点类型和整数类型作为参数类型的取整数类型为准，浮点类型函数后面加F后缀进行区分。
+    4、GDI+ C版本和C++版本一样，直接在头文件中写成FORCEINLINE类型的函数，我测试过VS2005和BCB6及以上版本，VS对FORCEINLINE宏支持为inline函数，而BCB则临时编译为C函数。总之，不需要预先编译静态库。
+    二、使用GDI+的C++版本一样，C版本使用前必须使用GdiplusStartup进行初始化，使用完毕也应用GdiplusShutdown进行释放，因为C++的GdiplusStartup的input参数是个类类型，默认构造函数已经进行了参数的初始化，而C版本必须调用MakeGdiplusStartupInput函数进行input参数的初始化，为了减少麻烦，我另写了2个没有参数的函数Gdiplus_Startup和Gdiplus_Shutdown替代。
+    三、同GDI+的C++版本一样，使用C版本的应用程序也必须包含Gdiplus的静态连接库Gdiplus.lib。注意：不同的C编译器，其Gdiplus.lib是不同的，如VS就不能使用BCB提供的（或者制作的）静态库，反过来也一样。
+    四、GDI+ C版本写成后，使用VS2005和BCB6和BCB2010作了一些主要的应用测试，这些测试代码我会放到我的BLOG上，可作为参考，请随时注意我的BLOG文章，我的BLOG地址为http://blog.csdn.net/maozefa。
+    五、使用过程中，如有错误，或者你有好的建议，请发送邮件到我的信箱：mao.maozefa@gmail.com

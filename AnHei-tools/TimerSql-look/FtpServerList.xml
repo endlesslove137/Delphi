@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---->
+<stdxmlform Version="0.0.0.0" Update="2012-07-20 17:38:46" Design="Miros" NextID="10"><FtpClass ClassID="5" ClassName="新建分类"><Server ID="6" Name="zMM-U" IP="172.168.0.135" Port="73" UserName="servutest" Password="123" Note="21:46:26新建服务器6 zMM-U" passive="-1"/><Server ID="7" Name="zMM-Ftp" IP="172.168.0.135" Port="37" UserName="521g" Password="521g" Note="10:08:43新建服务器7" passive="-1"/><Server ID="8" Name="zMM-Ftp2" IP="172.168.0.135" Port="37" UserName="521g" Password="521g" Note="压下压下压下压下" passive="-1"/><Server ID="9" Name="zMM-Ftp3" IP="172.168.0.135" Port="37" UserName="521g" Password="521g" Note="测试使用" passive="-1"/></FtpClass></stdxmlform>

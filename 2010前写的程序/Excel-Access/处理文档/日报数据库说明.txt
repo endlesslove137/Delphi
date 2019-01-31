@@ -1,0 +1,10 @@
+comparefields 
+  fielddesc:数据库字段描述
+  fieldname:数据库字段名
+  xlscolname:数据库字段描述－在Excel中出现的列名
+  Datatype:在数据库中的数据类型
+
+WelldayProd
+  数据库字段的描述请参看 comparefields表
+  wellnamec:在数据库　井名表中存在的表名　
+  wellanemb在数据库　井名表不存在的表名　存放的是整理后的表名

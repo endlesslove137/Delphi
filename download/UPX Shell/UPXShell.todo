@@ -1,0 +1,9 @@
+
+{TODO -oApplication -cCopyright : Add function to write copyright into the compressed file}
+{DONE -oCompression -cTranslation :
+Add new taskbar messages and delete old ones from the EngMsgs array 
+and update the translation files.}
+{DONE -oMainForm -cTransitionRemind : 
+Check if the LangFile variable contains anything..if not then
+set to WorkDir+English.lng}
+ 

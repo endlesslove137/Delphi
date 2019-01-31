@@ -1,0 +1,23 @@
+ Orders.smoney=svolume(m3)*10元+svolume(m3)*10元
+ 
+ 若pay为0 则不能插入提示用户这是付有偿服务
+
+ 若orders.state为失败时在reparation中插入相应信息(公司和司机各承担50%)
+
+ receipt中插入一条数据时，更新车辆的state
+
+ 若托运单没有收据，则reparation中必有对应信息
+
+ 如果requireddate在三天之内，将物品入到公司的仓库
+
+ 要求dispath中的shipdate小于order.requiredate
+
+ order.requiredate<order.orderdate
+
+ 在receipe或reparation中插入一条数据修改order.state
+
+ 系统在dispatch.shipdate＝当前时间时给予一定的提示
+
+ 更新carstate时要更新order.state
+
+ 

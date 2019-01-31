@@ -1,0 +1,8 @@
+#合计#
+
+select distinct(fielddesc),xlscolname from comparefields where fielddesc like '%原因%'
+
+
+要处理的
+wellnamea like trim('合计'}
+zscw='负责人：贾其虎'

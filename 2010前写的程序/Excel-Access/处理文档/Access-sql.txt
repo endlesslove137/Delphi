@@ -1,0 +1,56 @@
+select count(*),inputdate from welldayprod where depname='油房庄采油队' group by inputdate
+
+select distinct(biaogemingcheng),depname from welldayprod group by depname,biaogemingcheng order by depname
+
+select count(*) from dbzhushui  where inputdate>=#2010-08-14# 
+select count(*),depname from dbzhushui  where inputdate>=#2010-08-14# group by depname
+select count(*),inputdate from dbzhushui where depname='油房庄采油队' group by inputdate
+
+select count(*) from welldayprod where depname='油房庄采油队'
+
+select inputdate,count(*) from welldayprod where depname='东仁沟采油队' group by inputdate 
+
+delete * from welldayprod where depname='樊学采油队'
+
+insert into comparefields values('开井时间','KaiJingShiJian','开井时间m');
+update comparefields set fielddesc='开井时间m' ,fieldname='KaiJingShiJianM' where xlscolname='开井时间m'
+insert into comparefields(Fielddesc,Fieldname) values('开井时间m','KaiJingShiJianM');
+alter table welldayprod add KaiJingShiJianM float;
+
+insert into comparefields values('泵型','BangXing','泵型');
+insert into comparefields(Fielddesc,Fieldname) values('泵型','BangXing');
+alter table welldayprod add BangXing varchar(37);
+
+
+
+
+insert into comparefields(fielddesc,filedname) where xlscolname is null and fielddesc not in (select fielddesc from comparefields where xlscolname is nul)
+
+select * from cp1 where xlscolname is null and fielddesc not in (select fielddesc from comparefields where xlscolname is null)
+
+create table t3(by float,fsqyl float,biaogemingcheng varchar(30),unputdate date,depname varchar(30),wellnameb varchar(30),ichk yesno,isel yesno,username varchar(30))
+
+
+
+select fielddesc,fieldname,xlscolname,datatype into xx from comparefields where xlscolname is null  group by xlscolname,fieldname,fielddesc,datatype
+
+
+insert into comparefields(fielddesc,fieldname,datatype) select fielddesc,fieldname,datatype from xx   
+
+select fielddesc,fieldname,datatype from xx group by fielddesc,fieldname,datatype
+
+select fieldname,count(fieldname) from xx group by fieldname having count(fieldname)>=2
+
+GZSJ
+
+SuoShuZhan
+
+WELLNAMEA
+
+ZSCW
+
+select fieldname,datatype from xx where fieldname='ZSCW'
+delete * from xx where fieldname='ZSCW' and datatype='varchar(150)'
+
+
+

@@ -1,0 +1,362 @@
+EurekaLog 6.0.21
+
+Application:
+------------------------------------------------------
+  1.1 Start Date      : Fri, 2 Aug 2013 17:25:06 +0800
+  1.2 Name/Description: UPXShell.exe
+  1.3 Version Number  : 1.0.0.0
+  1.4 Parameters      : 
+  1.5 Compilation Date: Fri, 2 Aug 2013 17:25:03 +0800
+  1.6 Up Time         : 1 minute, 44 seconds
+
+Exception:
+----------------------------------------------------
+  2.1 Date          : Fri, 2 Aug 2013 17:26:51 +0800
+  2.2 Address       : 00405B22
+  2.3 Module Name   : UPXShell.exe
+  2.4 Module Version: 1.0.0.0
+  2.5 Type          : EOutOfMemory
+  2.6 Message       : Out of memory.
+  2.7 ID            : DE90
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : endlesslove137
+  3.2 Name      : endlesslove137
+  3.3 Email     : 
+  3.4 Company   : 
+  3.5 Privileges: SeIncreaseQuotaPrivilege        - OFF
+                  SeSecurityPrivilege             - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeLoadDriverPrivilege           - ON
+                  SeSystemProfilePrivilege        - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeCreatePagefilePrivilege       - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeChangeNotifyPrivilege         - ON
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeUndockPrivilege               - OFF
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+                  SeIncreaseWorkingSetPrivilege   - OFF
+                  SeTimeZonePrivilege             - OFF
+                  SeCreateSymbolicLinkPrivilege   - OFF
+
+Active Controls:
+-------------------------------------------------
+  4.1 Form Class   : qqbrowser_web_page_container
+  4.2 Form Text    : 
+  4.3 Control Class: TButton
+  4.4 Control Text : Check for updates
+
+Computer:
+--------------------------------------------------------------------------------------
+  5.1 Name          : ENDLESSLOVE
+  5.2 Total Memory  : 3261 Mb
+  5.3 Free Memory   : 1412 Mb
+  5.4 Total Disk    : 126.95 Gb
+  5.5 Free Disk     : 102.86 Gb
+  5.6 System Up Time: 7 hours, 36 minutes, 53 seconds
+  5.7 Processor     : Pentium(R) Dual-Core  CPU      E5500  @ 2.80GHz
+  5.8 Display Mode  : 1440 x 900, 32 bit
+  5.9 Display DPI   : 120
+  5.10 Video Card   : Intel(R) G41 Express Chipset (driver 8.15.10.2555 - RAM 1438 MB)
+  5.11 Printer      : Microsoft XPS Document Writer (driver 6.1.7601.17514)
+
+Operating System:
+------------------------------------
+  6.1 Type    : Microsoft Windows 7
+  6.2 Build # : 7601
+  6.3 Update  : Service Pack 1
+  6.4 Language: Chinese (Simplified)
+  6.5 Charset : 134
+
+Network:
+---------------------------------
+  7.1 IP Address: 172.168.000.135
+  7.2 Submask   : 255.255.000.000
+  7.3 Gateway   : 172.168.000.001
+  7.4 DNS 1     : 202.096.128.086
+  7.5 DNS 2     : 202.096.128.068
+  7.6 DHCP      : OFF            
+
+Call Stack Information:
+------------------------------------------------------------------------
+|Address |Module      |Unit        |Class    |Procedure/Method |Line   |
+------------------------------------------------------------------------
+|Running Thread: ID=8772; Priority=0; Class=; [Main]                   |
+|----------------------------------------------------------------------|
+|004EC235|UPXShell.exe|MainFrm.pas |         |GetInetFile      |1040[9]|
+|004EC178|UPXShell.exe|MainFrm.pas |         |GetInetFile      |1031[0]|
+|004EC347|UPXShell.exe|MainFrm.pas |TMainForm|btnChkUpdateClick|1067[9]|
+|004ED8DD|UPXShell.exe|UPXShell.dpr|         |                 |38[6]  |
+------------------------------------------------------------------------
+
+Modules Information:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name                                    |Description                                               |Version           |Size    |Modified           |Path                                                                                                         |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|UPXShell.exe                            |                                                          |1.0.0.0           |1461248 |2013-08-02 17:25:04|D:\mine\百度网盘\Desktop\200689951472\200689951472\UPX Shell                                                 |
+|02170000|RTXOLAss.dll                            |RTXOLAss DLL                                              |1.0.0.1           |341520  |2010-12-07 15:04:24|C:\Program Files\Tencent\RTXC                                                                                |
+|02980000|ikutm.dll                               |iKu Smart Network Module                                  |4.0.1.7040        |88320   |2013-07-04 02:52:50|C:\Program Files\YouKu\YoukuClient                                                                           |
+|04110000|ikutmco.dll                             |iKu Smart Network Module                                  |4.0.1.7040        |206600  |2013-07-04 02:52:54|C:\Program Files\YouKu\YoukuClient                                                                           |
+|10000000|QQWUBI.IME                              |QQ五笔输入法                                              |2.0.305.400       |2344312 |2011-11-07 17:21:18|C:\Windows\system32                                                                                          |
+|63F40000|StructuredQuery.dll                     |Structured Query                                          |7.0.7601.17514    |363520  |2010-11-21 05:29:20|C:\Windows\System32                                                                                          |
+|64660000|ieproxy.dll                             |IE ActiveX Interface Marshaling Library                   |10.0.9200.16635   |257536  |2013-06-12 07:43:00|C:\Program Files\Internet Explorer                                                                           |
+|65C20000|ieframe.DLL                             |Internet 浏览器                                           |10.0.9200.16635   |13760512|2013-06-12 07:43:00|C:\Windows\system32                                                                                          |
+|66DA0000|thumbcache.dll                          |Microsoft 缩略图缓存                                      |6.1.7601.17514    |82944   |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|6A1F0000|safemon.dll                             |360安全卫士 网盾防护模块                                  |8.2.2.1470        |1296304 |2013-07-22 10:50:30|C:\Program Files\360\360safe\safemon                                                                         |
+|6A6B0000|SearchFolder.dll                        |SearchFolder                                              |6.1.7601.17514    |646144  |2010-11-21 05:29:08|C:\Windows\system32                                                                                          |
+|6D160000|wsock32.dll                             |Windows Socket 32-Bit DLL                                 |6.1.7600.16385    |15360   |2009-07-14 09:16:22|C:\Windows\system32                                                                                          |
+|6D600000|ntshrui.dll                             |用于共享的外壳扩展                                        |6.1.7601.17514    |442880  |2010-11-21 05:29:10|C:\Windows\system32                                                                                          |
+|6D840000|NetworkExplorer.dll                     |网络浏览器                                                |6.1.7601.17514    |1661440 |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|6DC40000|tiptsf.dll                              |Tablet PC 输入面板文本服务框架                            |6.1.7600.16385    |348160  |2009-07-14 09:16:18|C:\Program Files\Common Files\microsoft shared\ink                                                           |
+|6DFF0000|SHDOCVW.dll                             |Shell Doc 对象和控件库                                    |6.1.7601.17514    |179712  |2010-11-21 05:29:12|C:\Windows\system32                                                                                          |
+|6E050000|ACTXPRXY.DLL                            |ActiveX Interface Marshaling Library                      |6.1.7601.17514    |309760  |2010-11-21 05:29:08|C:\Windows\system32                                                                                          |
+|6E120000|IconCodecService.dll                    |Converts a PNG part of the icon to a legacy bmp icon      |6.1.7600.16385    |9728    |2009-07-14 09:15:28|C:\Windows\system32                                                                                          |
+|6E130000|360UDiskGuard.dll                       |360安全卫士 木马防火墙模块                                |2.0.0.1039        |200312  |2013-02-05 17:34:54|C:\Program Files\360\360safe\safemon                                                                         |
+|6E170000|MSVCP100.dll                            |Microsoft? C Runtime Library                              |10.0.40219.325    |421200  |2011-06-11 01:58:52|C:\Windows\system32                                                                                          |
+|6E1E0000|libsasl32.dll                           |                                                          |2.1.24.0          |70536   |2012-08-30 19:01:28|C:\Program Files\TortoiseSVN\bin                                                                             |
+|6E200000|intl3_tsvn32.dll                        |LGPLed libintl for Windows NT/2000/XP and Windows 95/98/ME|0.14.6.0          |45960   |2012-08-30 19:01:26|C:\Program Files\TortoiseSVN\bin                                                                             |
+|6E210000|libaprutil_tsvn32.dll                   |Apache Portable Runtime Utility Library                   |1.3.12.0          |210312  |2012-08-30 19:01:26|C:\Program Files\TortoiseSVN\bin                                                                             |
+|6E250000|MSVCR100.dll                            |Microsoft? C Runtime Library                              |10.0.40219.325    |773968  |2011-06-11 01:58:52|C:\Windows\system32                                                                                          |
+|6E310000|libapr_tsvn32.dll                       |Apache Portable Runtime Library                           |1.4.6.0           |134024  |2012-08-30 19:01:26|C:\Program Files\TortoiseSVN\bin                                                                             |
+|6E340000|libsvn_tsvn32.dll                       |Subversion library dll built for TortoiseSVN              |1.7.6.60057       |3082120 |2012-08-30 19:01:28|C:\Program Files\TortoiseSVN\bin                                                                             |
+|6E640000|TortoiseSVN32.dll                       |TortoiseSVN shell extension client                        |1.7.9.23248       |433544  |2012-08-30 19:01:52|C:\Program Files\TortoiseSVN\bin                                                                             |
+|6E6B0000|TortoiseStub32.dll                      |TortoiseSVN shell extension client                        |1.7.9.23248       |40328   |2012-08-30 19:01:52|C:\Program Files\TortoiseSVN\bin                                                                             |
+|6E6C0000|kuaipanshellext.dll                     |KuaipanShellExt Module                                    |2.10.0.15         |1160024 |2013-07-05 11:19:22|C:\Program Files\Kingsoft\Klive                                                                              |
+|6EAE0000|TortoiseOverlays.dll                    |TortoiseSVN overlay handler shim                          |1.1.3.21564       |64792   |2011-06-13 10:20:44|C:\Program Files\Common Files\TortoiseOverlays                                                               |
+|6ED90000|FLTLIB.DLL                              |筛选器库                                                  |6.1.7600.16385    |14848   |2009-07-14 09:15:22|C:\Windows\system32                                                                                          |
+|6FDC0000|cscapi.dll                              |Offline Files Win32 API                                   |6.1.7601.17514    |34816   |2010-11-21 05:29:10|C:\Windows\system32                                                                                          |
+|70460000|npmproxy.dll                            |Network List Manager Proxy                                |6.1.7600.16385    |16896   |2009-07-14 09:16:12|C:\Windows\System32                                                                                          |
+|70B20000|netprofm.dll                            |网络列表管理器                                            |6.1.7600.16385    |360448  |2009-07-14 09:16:04|C:\Windows\System32                                                                                          |
+|71020000|winspool.drv                            |Windows 后台处理程序驱动程序                              |6.1.7601.17514    |320000  |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|71220000|rasadhlp.dll                            |Remote Access AutoDial Helper                             |6.1.7600.16385    |11776   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|71270000|api-ms-win-downlevel-advapi32-l2-1-0.dll|ApiSet Stub DLL                                           |6.2.9200.16492    |3584    |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|71290000|api-ms-win-downlevel-shlwapi-l2-1-0.dll |ApiSet Stub DLL                                           |6.2.9200.16492    |5632    |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|71670000|RICHED20.dll                            |Rich Text Edit Control, v3.1                              |5.31.23.1230      |473600  |2010-11-21 05:29:22|C:\Windows\system32                                                                                          |
+|716F0000|RICHED32.DLL                            |Wrapper Dll for Richedit 1.0                              |6.1.7601.17514    |8704    |2010-11-21 05:29:22|C:\Windows\system32                                                                                          |
+|71960000|LINKINFO.dll                            |Windows Volume Tracking                                   |6.1.7600.16385    |22016   |2009-07-14 09:15:38|C:\Windows\system32                                                                                          |
+|71B10000|dhcpcsvc.DLL                            |DHCP 客户端服务                                           |6.1.7600.16385    |61952   |2009-07-14 09:15:12|C:\Windows\system32                                                                                          |
+|71B30000|dhcpcsvc6.DLL                           |DHCPv6 客户端                                             |6.1.7600.16385    |43008   |2009-07-14 09:15:12|C:\Windows\system32                                                                                          |
+|71B50000|fwpuclnt.dll                            |FWP/IPsec 用户模式 API                                    |6.1.7601.17514    |216576  |2010-11-21 05:29:14|C:\Windows\System32                                                                                          |
+|72050000|api-ms-win-downlevel-shell32-l1-1-0.dll |ApiSet Stub DLL                                           |6.2.9200.16492    |3072    |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|733F0000|OLEPRO32.DLL                            |                                                          |6.1.7601.17514    |90112   |2010-11-21 05:29:12|C:\Windows\system32                                                                                          |
+|73580000|WINNSI.DLL                              |Network Store Information RPC interface                   |6.1.7600.16385    |16896   |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|73590000|IPHLPAPI.DLL                            |IP Helper API                                             |6.1.7601.17514    |103936  |2010-11-21 05:29:26|C:\Windows\system32                                                                                          |
+|73690000|slc.dll                                 |软件授权客户端 Dll                                        |6.1.7600.16385    |27136   |2009-07-14 09:16:16|C:\Windows\system32                                                                                          |
+|73780000|nlaapi.dll                              |Network Location Awareness 2                              |6.1.7601.17514    |52224   |2010-11-21 05:29:12|C:\Windows\System32                                                                                          |
+|73D60000|MSIMG32.dll                             |GDIEXT Client DLL                                         |6.1.7600.16385    |4608    |2009-07-14 09:15:46|C:\Windows\system32                                                                                          |
+|73F70000|samcli.dll                              |Security Accounts Manager Client DLL                      |6.1.7601.17514    |51200   |2010-11-21 05:29:08|C:\Windows\system32                                                                                          |
+|73F80000|wkscli.dll                              |Workstation Service Client DLL                            |6.1.7601.17514    |47104   |2010-11-21 05:29:08|C:\Windows\system32                                                                                          |
+|73F90000|netutils.dll                            |Net Win32 API Helpers DLL                                 |6.1.7601.17514    |22528   |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|73FA0000|NETAPI32.dll                            |Net Win32 API DLL                                         |6.1.7601.17887    |57344   |2012-07-05 05:16:58|C:\Windows\system32                                                                                          |
+|74010000|EhStorShell.dll                         |Windows 增强的存储外壳扩展 DLL                            |6.1.7600.16385    |189952  |2009-07-14 09:15:16|C:\Windows\system32                                                                                          |
+|74090000|WindowsCodecs.dll                       |Microsoft Windows Codecs Library                          |6.2.9200.16492    |1230336 |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|74340000|WTSAPI32.dll                            |Windows Remote Desktop Session Host Server SDK APIs       |6.1.7601.17514    |40448   |2010-11-21 05:29:08|C:\Windows\system32                                                                                          |
+|74510000|gdiplus.dll                             |Microsoft GDI+                                            |6.1.7601.18120    |1625088 |2013-04-03 12:50:22|C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18120_none_72d2e82386681b36        |
+|746A0000|uxtheme.dll                             |Microsoft UxTheme 库                                      |6.1.7600.16385    |249856  |2012-08-08 14:42:26|C:\Windows\system32                                                                                          |
+|747F0000|propsys.dll                             |Microsoft 属性系统                                        |7.0.7601.17514    |988160  |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|748F0000|SAMLIB.dll                              |SAM Library DLL                                           |6.1.7600.16385    |60928   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|74930000|comctl32.dll                            |用户体验控件库                                            |6.10.7601.17514   |1680896 |2010-11-21 05:29:08|C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2|
+|74D90000|version.dll                             |Version Checking and File Installation Libraries          |6.1.7600.16385    |21504   |2009-07-14 09:16:18|C:\Windows\system32                                                                                          |
+|74E20000|wshtcpip.DLL                            |Winsock2 帮助程序 DLL (TL/IPv4)                           |6.1.7600.16385    |9216    |2009-07-14 09:16:22|C:\Windows\system32                                                                                          |
+|74E30000|wshqos.dll                              |QoS Winsock2 帮助程序 DLL                                 |6.1.7600.16385    |13824   |2009-07-14 09:16:22|C:\Windows\System32                                                                                          |
+|74E40000|ntmarta.dll                             |Windows NT MARTA 提供程序                                 |6.1.7600.16385    |121856  |2009-07-14 09:16:12|C:\Windows\system32                                                                                          |
+|750F0000|rsaenh.dll                              |Microsoft Enhanced Cryptographic Provider                 |6.1.7600.16385    |242936  |2009-07-14 09:17:56|C:\Windows\system32                                                                                          |
+|751D0000|DNSAPI.dll                              |DNS 客户端 API DLL                                        |6.1.7601.17570    |270336  |2011-03-03 13:38:02|C:\Windows\system32                                                                                          |
+|75300000|wship6.dll                              |Winsock2 帮助程序 DLL (TL/IPv6)                           |6.1.7600.16385    |10752   |2009-07-14 09:16:22|C:\Windows\System32                                                                                          |
+|75310000|MSWSOCK.dll                             |Microsoft Windows Sockets 2.0 服务提供程序                |6.1.7601.17514    |232448  |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|75350000|CRYPTSP.dll                             |Cryptographic Service Provider API                        |6.1.7600.16385    |78848   |2009-07-14 09:15:08|C:\Windows\system32                                                                                          |
+|75510000|WINSTA.dll                              |Winstation Library                                        |6.1.7601.17514    |156672  |2010-11-21 05:29:08|C:\Windows\system32                                                                                          |
+|75540000|srvcli.dll                              |Server Service Client DLL                                 |6.1.7601.17514    |90112   |2010-11-21 05:29:16|C:\Windows\system32                                                                                          |
+|75600000|Secur32.dll                             |Security Support Provider Interface                       |6.1.7601.17725    |22016   |2011-11-17 13:34:54|C:\Windows\system32                                                                                          |
+|757D0000|SSPICLI.DLL                             |Security Support Provider Interface                       |6.1.7601.17725    |100352  |2011-11-17 13:34:56|C:\Windows\system32                                                                                          |
+|75800000|apphelp.dll                             |应用程序兼容性客户端库                                    |6.1.7601.17514    |295936  |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|75850000|CRYPTBASE.dll                           |Base cryptographic API DLL                                |6.1.7600.16385    |36864   |2009-07-14 09:15:08|C:\Windows\system32                                                                                          |
+|758C0000|RpcRtRemote.dll                         |Remote RPC Extension                                      |6.1.7601.17514    |46080   |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|758D0000|profapi.dll                             |User Profile Basic API                                    |6.1.7600.16385    |31744   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|75940000|MSASN1.dll                              |ASN.1 Runtime APIs                                        |6.1.7601.17514    |34304   |2010-11-21 05:29:06|C:\Windows\system32                                                                                          |
+|75950000|api-ms-win-downlevel-advapi32-l1-1-0.dll|ApiSet Stub DLL                                           |6.2.9200.16492    |10752   |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|75960000|api-ms-win-downlevel-shlwapi-l1-1-0.dll |ApiSet Stub DLL                                           |6.2.9200.16492    |9728    |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|75970000|CFGMGR32.dll                            |Configuration Manager DLL                                 |6.1.7601.17514    |145920  |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|759A0000|api-ms-win-downlevel-normaliz-l1-1-0.dll|ApiSet Stub DLL                                           |6.2.9200.16492    |2560    |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|759E0000|api-ms-win-downlevel-version-l1-1-0.dll |ApiSet Stub DLL                                           |6.2.9200.16492    |3072    |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|75A80000|CRYPT32.dll                             |加密 API32                                                |6.1.7601.18151    |1160192 |2013-05-13 12:45:56|C:\Windows\system32                                                                                          |
+|75BA0000|api-ms-win-downlevel-ole32-l1-1-0.dll   |ApiSet Stub DLL                                           |6.2.9200.16492    |5632    |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|75BB0000|DEVOBJ.dll                              |Device Information Set DLL                                |6.1.7600.16385    |64512   |2009-07-14 09:15:12|C:\Windows\system32                                                                                          |
+|75BD0000|KERNELBASE.dll                          |Windows NT 基本 API 客户端 DLL                            |6.1.7601.17965    |293376  |2012-10-05 00:43:06|C:\Windows\system32                                                                                          |
+|75C20000|WINMM.dll                               |MCI API DLL                                               |6.1.7601.17514    |194048  |2010-11-21 05:29:20|C:\Windows\system32                                                                                          |
+|75C60000|api-ms-win-downlevel-user32-l1-1-0.dll  |ApiSet Stub DLL                                           |6.2.9200.16492    |4096    |2013-06-14 15:39:22|C:\Windows\system32                                                                                          |
+|75CA0000|dwmapi.dll                              |Microsoft 桌面窗口管理器 API                              |6.1.7600.16385    |67072   |2009-07-14 09:15:14|C:\Windows\system32                                                                                          |
+|75CD0000|iertutil.dll                            |Run time utility for Internet Explorer                    |10.0.9200.16635   |2046976 |2013-06-12 07:43:00|C:\Windows\system32                                                                                          |
+|75ED0000|RPCRT4.dll                              |远程过程调用运行时                                        |6.1.7601.17514    |653312  |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|75F80000|kernel32.dll                            |Windows NT 基本 API 客户端 DLL                            |6.1.7601.17965    |868352  |2012-10-05 00:43:06|C:\Windows\system32                                                                                          |
+|76060000|normaliz.DLL                            |Unicode Normalization DLL                                 |6.1.7600.16385    |2048    |2009-07-14 09:09:02|C:\Windows\system32                                                                                          |
+|76070000|comdlg32.dll                            |Common Dialogs DLL                                        |6.1.7601.17514    |485888  |2010-11-21 05:29:06|C:\Windows\system32                                                                                          |
+|760F0000|SHLWAPI.dll                             |外壳简易实用工具库                                        |6.1.7601.17514    |350208  |2010-11-21 05:29:04|C:\Windows\system32                                                                                          |
+|76150000|shell32.dll                             |Windows 外壳公用 DLL                                      |6.1.7601.17859    |12873728|2012-06-09 12:41:02|C:\Windows\system32                                                                                          |
+|76DA0000|GDI32.dll                               |GDI Client DLL                                            |6.1.7601.17514    |304640  |2010-11-21 05:29:14|C:\Windows\system32                                                                                          |
+|76DF0000|SETUPAPI.dll                            |Windows 安装程序 API                                      |6.1.7601.17514    |1667584 |2010-11-21 05:29:08|C:\Windows\system32                                                                                          |
+|76F90000|sechost.dll                             |Host for SCM/SDDL/LSA Lookup APIs                         |6.1.7600.16385    |92160   |2009-07-14 09:16:14|C:\Windows\SYSTEM32                                                                                          |
+|770A0000|NSI.dll                                 |NSI User-mode interface DLL                               |6.1.7600.16385    |8704    |2009-07-14 09:16:12|C:\Windows\system32                                                                                          |
+|770B0000|PSAPI.DLL                               |Process Status Helper                                     |6.1.7600.16385    |6144    |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|770C0000|USER32.dll                              |多用户 Windows 用户 API 客户端 DLL                        |6.1.7601.17514    |811520  |2010-11-21 05:29:22|C:\Windows\system32                                                                                          |
+|77190000|LPK.dll                                 |Language Pack                                             |6.1.7600.16385    |26624   |2009-07-14 09:15:38|C:\Windows\system32                                                                                          |
+|771A0000|MSCTF.dll                               |MSCTF 服务器 DLL                                          |6.1.7600.16385    |828928  |2009-07-14 09:15:44|C:\Windows\system32                                                                                          |
+|77270000|advapi32.dll                            |高级 Windows 32 基本 API                                  |6.1.7601.17514    |640512  |2010-11-21 05:29:22|C:\Windows\system32                                                                                          |
+|773C0000|WLDAP32.dll                             |Win32 LDAP API DLL                                        |6.1.7601.17514    |269824  |2010-11-21 05:29:20|C:\Windows\system32                                                                                          |
+|77550000|USP10.dll                               |Uniscribe Unicode script processor                        |1.626.7601.17514  |626176  |2010-11-21 05:29:20|C:\Windows\system32                                                                                          |
+|775F0000|oleaut32.dll                            |                                                          |6.1.7601.17676    |571904  |2011-08-27 12:26:28|C:\Windows\system32                                                                                          |
+|776E0000|wininet.dll                             |Win32 的 Internet 扩展                                    |10.0.9200.16635   |1767936 |2013-06-12 07:43:38|C:\Windows\system32                                                                                          |
+|778A0000|urlmon.dll                              |Win32 的 OLE32 扩展                                       |10.0.9200.16635   |1141248 |2013-06-12 07:43:34|C:\Windows\system32                                                                                          |
+|779D0000|msvcrt.dll                              |Windows NT CRT DLL                                        |7.0.7601.17744    |690688  |2011-12-16 15:53:00|C:\Windows\system32                                                                                          |
+|77A80000|ole32.dll                               |用于 Windows 的 Microsoft OLE                             |6.1.7601.17514    |1414144 |2010-11-21 05:29:08|C:\Windows\system32                                                                                          |
+|77BE0000|ntdll.dll                               |NT 层 DLL                                                 |6.1.7601.17725    |1288472 |2011-11-17 13:38:40|C:\Windows\SYSTEM32                                                                                          |
+|77D20000|IMM32.DLL                               |Multi-User Windows IMM32 API Client DLL                   |6.1.7601.17514    |118272  |2010-11-21 05:29:22|C:\Windows\system32                                                                                          |
+|77D40000|CLBCatQ.DLL                             |COM+ Configuration Catalog                                |2001.12.8530.16385|522240  |2009-07-14 09:15:04|C:\Windows\system32                                                                                          |
+|77DD0000|WS2_32.dll                              |Windows Socket 2.0 32 位 DLL                              |6.1.7601.17514    |206848  |2010-11-21 05:29:08|C:\Windows\system32                                                                                          |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID   |Name                  |Description                                        |Version        |Memory|Priority    |Threads|Path                                                                                                       |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|0    |[System Process]      |                                                   |               |0     |            |2      |                                                                                                           |
+|4    |System                |                                                   |               |0     |Normal      |91     |                                                                                                           |
+|108  |QQPMSRV.exe           |                                                   |               |0     |Normal      |5      |                                                                                                           |
+|284  |smss.exe              |Windows 会话管理器                                 |6.1.7601.18113 |0     |Above-Normal|2      |                                                                                                           |
+|380  |csrss.exe             |Client Server Runtime Process                      |6.1.7600.16385 |0     |High        |9      |                                                                                                           |
+|432  |wininit.exe           |Windows 启动应用程序                               |6.1.7600.16385 |0     |High        |3      |                                                                                                           |
+|448  |csrss.exe             |Client Server Runtime Process                      |6.1.7600.16385 |0     |High        |11     |                                                                                                           |
+|492  |services.exe          |服务和控制器应用程序                               |6.1.7600.16385 |0     |Normal      |12     |                                                                                                           |
+|524  |lsass.exe             |Local Security Authority Process                   |6.1.7601.17725 |0     |Normal      |8      |                                                                                                           |
+|532  |winlogon.exe          |Windows 登录应用程序                               |6.1.7601.17514 |0     |High        |3      |                                                                                                           |
+|540  |lsm.exe               |本地会话管理器服务                                 |6.1.7601.17514 |0     |Normal      |10     |                                                                                                           |
+|672  |svchost.exe           |Windows 服务主进程                                 |6.1.7600.16385 |0     |Normal      |12     |                                                                                                           |
+|708  |qqbrowser.exe         |QQBrowser                                          |6.14.15493.201 |0     |Normal      |6      |c:\program files\tencent\qqbrowser                                                                         |
+|748  |svchost.exe           |Windows 服务主进程                                 |6.1.7600.16385 |0     |Normal      |9      |                                                                                                           |
+|756  |qqbrowser.exe         |QQBrowser                                          |6.14.15493.201 |0     |Normal      |4      |c:\program files\tencent\qqbrowser                                                                         |
+|828  |svchost.exe           |Windows 服务主进程                                 |6.1.7600.16385 |0     |Normal      |21     |                                                                                                           |
+|848  |conhost.exe           |控制台窗口主机                                     |6.1.7601.17965 |0     |Normal      |6      |C:\Windows\system32                                                                                        |
+|896  |svchost.exe           |Windows 服务主进程                                 |6.1.7600.16385 |0     |Normal      |21     |                                                                                                           |
+|936  |svchost.exe           |Windows 服务主进程                                 |6.1.7600.16385 |0     |Normal      |35     |                                                                                                           |
+|968  |stacsv.exe            |IDT PC Audio - SHANGHAI DEVELOPMENT CENTER         |1.0.6233.234   |0     |Normal      |13     |                                                                                                           |
+|1196 |svchost.exe           |Windows 服务主进程                                 |6.1.7600.16385 |0     |Normal      |13     |                                                                                                           |
+|1228 |AlipaySafeTran.exe    |AlipaySafeTran                                     |1.1.0.1        |0     |Normal      |27     |C:\Program Files\alipay\SafeTransaction                                                                    |
+|1360 |ZhuDongFangYu.exe     |                                                   |               |0     |Normal      |12     |                                                                                                           |
+|1412 |svchost.exe           |Windows 服务主进程                                 |6.1.7600.16385 |0     |Normal      |14     |                                                                                                           |
+|1464 |EvernoteTray.exe      |Evernote Tray Application                          |4.6.6.8360     |0     |Normal      |2      |C:\Program Files\Evernote\Evernote                                                                         |
+|1544 |spoolsv.exe           |后台处理程序子系统应用程序                         |6.1.7601.17514 |0     |Normal      |12     |                                                                                                           |
+|1572 |svchost.exe           |Windows 服务主进程                                 |6.1.7600.16385 |0     |Normal      |19     |                                                                                                           |
+|1672 |AlipaySecSvc.exe      |                                                   |               |0     |Normal      |12     |                                                                                                           |
+|1700 |c20ukdrwsvr.exe       |                                                   |               |0     |Normal      |3      |                                                                                                           |
+|1752 |LPDevSvc.exe          |                                                   |               |0     |Normal      |8      |                                                                                                           |
+|1816 |DBSer_ABC.exe         |                                                   |               |0     |Normal      |3      |                                                                                                           |
+|1856 |DBMon_ABC.exe         |OnKeyMon                                           |1.0.0.6        |0     |Normal      |3      |                                                                                                           |
+|2024 |TenpayServer.exe      |                                                   |               |0     |Normal      |6      |                                                                                                           |
+|2392 |svchost.exe           |Windows 服务主进程                                 |6.1.7600.16385 |0     |Normal      |14     |                                                                                                           |
+|2404 |UPXShell.exe          |                                                   |1.0.0.0        |0     |Normal      |14     |D:\mine\百度网盘\Desktop\200689951472\200689951472\UPX Shell                                               |
+|2456 |SearchIndexer.exe     |Microsoft Windows Search 索引器                    |7.0.7600.16385 |0     |Normal      |14     |                                                                                                           |
+|2652 |QQPMDaemon.exe        |腾讯手机管家服务程序                               |2.2.100.172    |0     |Normal      |4      |C:\Program Files\Tencent\QQPhoneManager                                                                    |
+|2732 |taskhost.exe          |Windows 任务的主机进程                             |6.1.7601.18010 |0     |Normal      |11     |C:\Windows\system32                                                                                        |
+|2844 |Dwm.exe               |桌面窗口管理器                                     |6.1.7600.16385 |0     |High        |5      |C:\Windows\system32                                                                                        |
+|2868 |Explorer.EXE          |Windows 资源管理器                                 |6.1.7601.17514 |0     |Normal      |42     |C:\Windows                                                                                                 |
+|2936 |tadb.exe              |                                                   |               |0     |Normal      |5      |C:\Program Files\Tencent\QQPhoneManager                                                                    |
+|3008 |360rp.exe             |360杀毒 实时监控                                   |4.0.0.4015     |0     |Normal      |50     |C:\Program Files\360\360sd                                                                                 |
+|3036 |EvernoteClipper.exe   |Evernote Clipper                                   |4.6.6.8360     |0     |Normal      |5      |C:\Program Files\Evernote\Evernote                                                                         |
+|3044 |hkcmd.exe             |hkcmd Module                                       |8.15.10.2555   |0     |Normal      |3      |C:\Windows\System32                                                                                        |
+|3052 |igfxpers.exe          |persistence Module                                 |8.15.10.2555   |0     |Normal      |3      |C:\Windows\System32                                                                                        |
+|3072 |sttray.exe            |IDT PC Audio - SHANGHAI DEVELOPMENT CENTER         |1.0.6233.234   |0     |Normal      |6      |C:\Program Files\IDT\WDM                                                                                   |
+|3080 |ComyTool20.exe        |                                                   |               |0     |Normal      |4      |C:\Program Files\95599 Certificate Tools\Watertek                                                          |
+|3092 |360tray.exe           |360安全卫士 木马防火墙模块                         |7.7.1.1003     |0     |Normal      |68     |C:\Program Files\360\360safe\safemon                                                                       |
+|3116 |DBSvr_ABC.exe         |OnKeySvr                                           |1.0.0.6        |0     |Normal      |6      |C:\Windows\System32                                                                                        |
+|3144 |TSVNCache.exe         |TortoiseSVN status cache                           |1.7.9.23248    |0     |Normal      |28     |C:\Program Files\TortoiseSVN\bin                                                                           |
+|3164 |Fetion.exe            |Fetion 2013                                        |4.8.1810.0     |0     |Normal      |38     |C:\Program Files\China Mobile\Fetion                                                                       |
+|3332 |SoftManagerLite.exe   |360软件小助手                                      |3.0.0.1080     |0     |Normal      |15     |C:\Program Files\360\360safe\SoftMgr                                                                       |
+|3388 |360sd.exe             |360杀毒 主程序                                     |4.2.0.4056     |0     |Normal      |18     |C:\Program Files\360\360sd                                                                                 |
+|3396 |Evernote.exe          |Evernote                                           |4.6.6.8360     |0     |Normal      |20     |C:\Program Files\Evernote\Evernote                                                                         |
+|3740 |RTX.exe               |RTX                                                |0.202.0.0      |0     |Normal      |14     |C:\Program Files\Tencent\RTXC                                                                              |
+|3748 |Alipaybsm.exe         |Alipay Browser Safe Monitor                        |1.0.0.23       |0     |Normal      |15     |C:\Program Files\alipay\SafeTransaction                                                                    |
+|4232 |QQProtect.exe         |QQProtect                                          |3.4.0.4493     |0     |Normal      |17     |C:\Program Files\Tencent\QQ\QQProtect\Bin                                                                  |
+|4376 |QQ.exe                |QQ2013                                             |1.94.7354.0    |0     |Normal      |45     |C:\Program Files\Tencent\QQ\bin                                                                            |
+|4536 |TXPlatform.exe        |QQ2013                                             |1.94.7354.0    |0     |Normal      |4      |C:\Program Files\Tencent\QQ\Bin                                                                            |
+|4700 |qqbrowser.exe         |QQBrowser                                          |6.14.15493.201 |0     |Normal      |36     |c:\program files\tencent\qqbrowser                                                                         |
+|4772 |SearchFilterHost.exe  |Microsoft Windows Search Filter Host               |7.0.7600.16385 |0     |Low         |5      |C:\Windows\system32                                                                                        |
+|4964 |QQ.exe                |QQ2013                                             |1.94.7354.0    |0     |Normal      |37     |C:\Program Files\Tencent\QQ\bin                                                                            |
+|5200 |qqbrowser.exe         |QQBrowser                                          |6.14.15493.201 |0     |Normal      |33     |c:\program files\tencent\qqbrowser                                                                         |
+|5464 |QQ.exe                |QQ2013                                             |1.94.7354.0    |0     |Normal      |46     |C:\Program Files\Tencent\QQ\bin                                                                            |
+|5648 |SearchProtocolHost.exe|Microsoft Windows Search Protocol Host             |7.0.7600.16385 |0     |Low         |7      |                                                                                                           |
+|5716 |explorer.exe          |Windows 资源管理器                                 |6.1.7601.17514 |0     |Normal      |20     |C:\Windows                                                                                                 |
+|6024 |qqbrowser.exe         |QQBrowser                                          |6.14.15493.201 |0     |Normal      |17     |c:\program files\tencent\qqbrowser                                                                         |
+|6104 |WUDFHost.exe          |Windows 驱动程序基础 - 用户模式驱动程序框架主机进程|6.1.7601.17514 |0     |Normal      |8      |                                                                                                           |
+|6200 |audiodg.exe           |Windows 音频设备图形隔离                           |6.1.7601.17514 |0     |Normal      |6      |                                                                                                           |
+|6468 |QQBrowser.exe         |                                                   |               |0     |Normal      |1      |                                                                                                           |
+|6484 |Foxit Reader.exe      |                                                   |5.1.0.1117     |0     |Normal      |7      |C:\Program Files\Foxit Software\Foxit Reader                                                               |
+|6508 |bds.exe               |Borland? Developer Studio for Windows              |10.0.2151.25345|0     |Normal      |28     |C:\Program Files\Borland\BDS\4.0\Bin                                                                       |
+|7928 |qqbrowser.exe         |QQBrowser                                          |6.14.15493.201 |0     |Normal      |33     |c:\program files\tencent\qqbrowser                                                                         |
+|7936 |QBDownloader.exe      |下载管理-QQ浏览器                                  |1.0.0.1        |0     |Normal      |13     |C:\program files\tencent\qqbrowser\6.14.15493.201\extensions\{7EDBEBE6-565F-4aa2-93A1-AD250445A5B6}\1.2.3.4|
+|9788 |EXCEL.EXE             |Microsoft Office Excel                             |12.0.4518.1014 |0     |Normal      |10     |C:\Program Files\Microsoft Office\Office12                                                                 |
+|10012|QQBrowserExtHost.exe  |QQBrowserExtHost                                   |6.14.15493.201 |0     |Normal      |47     |c:\program files\tencent\qqbrowser                                                                         |
+|10120|qqbrowser.exe         |QQBrowser                                          |6.14.15493.201 |0     |Normal      |5      |c:\program files\tencent\qqbrowser                                                                         |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+-----------------------------------------------------------------
+; UPXShell.System._LStrSetLength (Line=39 - Offset=0)
+; ---------------------------------------------------
+00405B0B  jle     UPXShell.System._LStrSetLength
+00405B0D  mov     eax, [ebx]
+00405B0F  test    eax, eax
+00405B11  jz      UPXShell.System._LStrSetLength
+00405B13  cmp     dword ptr [eax-$08], +$01
+00405B17  jnz     UPXShell.System._LStrSetLength
+00405B19  sub     eax, +$08
+00405B1C  add     edx, +$09
+00405B1F  push    eax
+00405B20  mov     eax, esp
+00405B22  call    UPXShell.System._ReallocMem     ; <-- EXCEPTION
+00405B27  pop     eax
+00405B28  add     eax, +$08
+00405B2B  mov     [ebx], eax
+00405B2D  mov     [eax-$04], esi
+00405B30  mov     byte ptr [esi+eax], $00
+
+Registers:
+-----------------------------
+EAX: 015D4D18   EDI: 00000000
+EBX: 00405B27   ESI: 00405B27
+ECX: 0012F000   ESP: 0012F0C4
+EDX: 00405B27   EIP: 00405B22
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0012F0C4: 00000001   00405B22: E8 21 D2 FF FF 58 83 C0 08 89 03 89 70 FC C6 04  .!...X......p...
+0012F0C8: 00402EBC   00405B32: 06 00 EB 28 89 D0 E8 1F F9 FF FF 89 C7 8B 03 85  ...(............
+0012F0CC: 20570051   00405B42: C0 74 10 89 FA 8B 48 FC 39 F1 7C 02 89 F1 E8 17  .t....H.9.|.....
+0012F0D0: 015CDF04   00405B52: D5 FF FF 89 D8 E8 3C F8 FF FF 89 3B 5F 5E 5B C3  ......<....;_^[.
+0012F0D4: 00405B27   00405B62: 8B C0 53 56 57 89 C3 89 D6 89 CF 89 C8 E8 24 F8  ..SVW.........$.
+0012F0D8: 29BE0010   00405B72: FF FF 85 F6 7E 12 89 F0 E8 DD F8 FF FF 89 07 89  ....~...........
+0012F0DC: 0012F140   00405B82: F2 88 D9 E8 EA DD FF FF 5F 5E 5B C3 8B C0 33 C9  ........_^[...3.
+0012F0E0: 000000B9   00405B92: E8 01 00 00 00 C3 53 89 D3 89 CA 31 C9 85 DB 74  ......S....1...t
+0012F0E4: 015CDF00   00405BA2: 05 8B 4B FC 29 CA 51 E8 9E E1 FF FF 59 89 DA 5B  ..K.).Q.....Y..[
+0012F0E8: 0041F0D6   00405BB2: E9 41 E1 FF FF C3 B0 01 E9 2D D3 FF FF C3 85 C0  .A.......-......
+0012F0EC: 0012F140   00405BC2: 74 10 50 6A 00 E8 98 B7 FF FF 85 C0 0F 84 E4 FF  t.Pj............
+0012F0F0: 00419828   00405BD2: FF FF C3 8D 40 00 87 10 85 D2 74 06 52 E8 90 B7  ....@.....t.R...
+0012F0F4: 000000B9   00405BE2: FF FF C3 8D 40 00 8B 10 85 D2 74 0E C7 00 00 00  ....@.....t.....
+0012F0F8: 0041E8EC   00405BF2: 00 00 50 52 E8 79 B7 FF FF 58 C3 8D 40 00 53 56  ..PR.y...X..@.SV
+0012F0FC: 004EC5F0   00405C02: 89 C3 89 D6 8B 03 85 C0 74 0C C7 03 00 00 00 00  ........t.......
+0012F100: 0012F540   00405C12: 50 E8 5C B7 FF FF 83 C3 04 4E 75 E8 5E 5B C3 8D  P.\......Nu.^[..
+
+
+

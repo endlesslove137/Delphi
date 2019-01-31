@@ -1,0 +1,50 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 438
+  ClientWidth = 749
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop, dkiPhone, dkiPad]
+  DesignerMobile = False
+  DesignerWidth = 0
+  DesignerHeight = 0
+  DesignerDeviceName = ''
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object tbmain: TTabControl
+    Align = alClient
+    Height = 438.000000000000000000
+    TabIndex = 2
+    TabOrder = 0
+    Width = 749.000000000000000000
+    object TISender: TTabItem
+      WordWrap = False
+      Height = 23.000000000000000000
+      IsSelected = False
+      Position.X = 1.000000000000000000
+      TabOrder = 0
+      Text = #21457#20214#26041
+      Width = 53.000000000000000000
+    end
+    object I1Recive: TTabItem
+      WordWrap = False
+      Height = 23.000000000000000000
+      IsSelected = False
+      Position.X = 54.000000000000000000
+      TabOrder = 1
+      Text = #25910#20214#26041
+      Width = 53.000000000000000000
+    end
+    object I1Text: TTabItem
+      WordWrap = False
+      Height = 23.000000000000000000
+      IsSelected = True
+      Position.X = 107.000000000000000000
+      TabOrder = 2
+      Text = #37038#20214#20869#23481
+      Width = 64.000000000000000000
+    end
+  end
+end

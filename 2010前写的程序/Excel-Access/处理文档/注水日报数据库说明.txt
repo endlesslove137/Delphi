@@ -1,0 +1,8 @@
+comparefields 
+  fielddesc:数据库字段描述
+  fieldname:数据库字段名
+  xlscolname:数据库字段描述－在Excel中出现的列名
+  Datatype:在数据库中的数据类型
+
+dbzhushui(注水日报表)
+  数据库字段的描述请参看 comparefields表

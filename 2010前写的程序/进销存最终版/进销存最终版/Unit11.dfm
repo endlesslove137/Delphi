@@ -1,0 +1,85 @@
+object Fstore: TFstore
+  Left = 355
+  Top = 318
+  BorderStyle = bsToolWindow
+  Caption = #24211#23384#26597#30475
+  ClientHeight = 138
+  ClientWidth = 309
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 34
+    Top = 32
+    Width = 112
+    Height = 16
+    Caption = #35831#36873#25321#20135#21697#21517#31216
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clBlue
+    Font.Height = -16
+    Font.Name = #26032#23435#20307
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label2: TLabel
+    Left = 34
+    Top = 72
+    Width = 112
+    Height = 16
+    Caption = #35813#20135#21697#30340#24211#23384#20026
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clBlue
+    Font.Height = -16
+    Font.Name = #26032#23435#20307
+    Font.Style = []
+    ParentFont = False
+    Transparent = True
+  end
+  object Label3: TLabel
+    Left = 160
+    Top = 72
+    Width = 121
+    Height = 25
+    AutoSize = False
+    Color = clBlue
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clBlue
+    Font.Height = -16
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+    Transparent = True
+  end
+  object Button1: TButton
+    Left = 82
+    Top = 100
+    Width = 129
+    Height = 21
+    Caption = #26597#35810
+    Font.Charset = GB2312_CHARSET
+    Font.Color = clBlue
+    Font.Height = -16
+    Font.Name = #26032#23435#20307
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object ComboBox1: TComboBox
+    Left = 160
+    Top = 32
+    Width = 145
+    Height = 21
+    ItemHeight = 13
+    TabOrder = 1
+  end
+end

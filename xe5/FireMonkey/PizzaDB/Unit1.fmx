@@ -1,0 +1,162 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 353
+  ClientWidth = 602
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [dkDesktop, dkiPhone, dkiPad]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMobile = False
+  DesignerWidth = 0
+  DesignerHeight = 0
+  DesignerDeviceName = ''
+  DesignerOrientation = 0
+  DesignerOSVersion = ''
+  object Nav1: TBindNavigator
+    Align = alTop
+    Height = 25.000000000000000000
+    Width = 602.000000000000000000
+    xRadius = 4.000000000000000000
+    yRadius = 4.000000000000000000
+  end
+  object edtID: TEdit
+    Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+    TabOrder = 1
+    Position.X = 128.000000000000000000
+    Position.Y = 72.000000000000000000
+    Width = 201.000000000000000000
+    Height = 22.000000000000000000
+    KillFocusByReturn = False
+  end
+  object edtName: TEdit
+    Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+    TabOrder = 2
+    Position.X = 128.000000000000000000
+    Position.Y = 104.000000000000000000
+    Width = 201.000000000000000000
+    Height = 22.000000000000000000
+    KillFocusByReturn = False
+  end
+  object edtPrice: TEdit
+    Touch.InteractiveGestures = [igLongTap, igDoubleTap]
+    TabOrder = 3
+    Position.X = 128.000000000000000000
+    Position.Y = 136.000000000000000000
+    Width = 201.000000000000000000
+    Height = 22.000000000000000000
+    KillFocusByReturn = False
+  end
+  object mmoDescription: TMemo
+    Touch.InteractiveGestures = [igPan, igLongTap, igDoubleTap]
+    Height = 161.000000000000000000
+    Position.X = 128.000000000000000000
+    Position.Y = 176.000000000000000000
+    TabOrder = 4
+    Width = 201.000000000000000000
+  end
+  object img1: TImageControl
+    Height = 217.000000000000000000
+    Position.X = 352.000000000000000000
+    Position.Y = 72.000000000000000000
+    TabOrder = 5
+    Width = 233.000000000000000000
+  end
+  object btn1: TCornerButton
+    Height = 33.000000000000000000
+    Position.X = 512.000000000000000000
+    Position.Y = 304.000000000000000000
+    Sides = [sdTop, sdLeft, sdBottom, sdRight]
+    TabOrder = 6
+    Text = 'Load Image'
+    Width = 73.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = btn1Click
+  end
+  object dlgOpen1: TOpenDialog
+    Left = 384
+    Top = 304
+  end
+  object Cds1: TClientDataSet
+    Active = True
+    Aggregates = <>
+    FileName = 'pizza.cds'
+    Params = <>
+    Left = 56
+    Top = 96
+    Data = {
+      A50000009619E0BD010000001800000005000000000003000000A50002494404
+      00010000000000044E616D650100490000000100055749445448020002001400
+      0B4465736372697074696F6E0100490000000100055749445448020002001400
+      055072696365080004000000010007535542545950450200490006004D6F6E65
+      790005496D61676504004B000000010007535542545950450200490009004772
+      617068696373000000}
+    object IFCds1ID: TIntegerField
+      FieldName = 'ID'
+    end
+    object SFCds1Name: TStringField
+      FieldName = 'Name'
+    end
+    object SFCds1Description: TStringField
+      FieldName = 'Description'
+    end
+    object CFCds1Price: TCurrencyField
+      FieldName = 'Price'
+    end
+    object GFCds1Image: TGraphicField
+      FieldName = 'Image'
+      BlobType = ftGraphic
+    end
+  end
+  object ds2: TDataSource
+    DataSet = Cds1
+    Left = 56
+    Top = 168
+  end
+  object bndsrcdb1: TBindSourceDB
+    DataSource = ds2
+    DataSet = Cds1
+    ScopeMappings = <>
+    Left = 56
+    Top = 216
+  end
+  object bndngslst1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 56
+    Top = 272
+    object BDBEdtID: TBindDBEditLink
+      Category = 'DB Links (deprecated)'
+      DataSource = bndsrcdb1
+      FieldName = 'ID'
+      EditControl = edtID
+    end
+    object BDBEdtName: TBindDBEditLink
+      Category = 'DB Links (deprecated)'
+      DataSource = bndsrcdb1
+      FieldName = 'Name'
+      EditControl = edtName
+    end
+    object BDBEdt1: TBindDBEditLink
+      Category = 'DB Links (deprecated)'
+      DataSource = bndsrcdb1
+      FieldName = 'Price'
+      EditControl = edtPrice
+    end
+    object bndbmlnk1: TBindDBMemoLink
+      Category = 'DB Links (deprecated)'
+      DataSource = bndsrcdb1
+      FieldName = 'Description'
+      MemoControl = mmoDescription
+    end
+    object bndbmglnk1: TBindDBImageLink
+      Category = 'DB Links (deprecated)'
+      DataSource = bndsrcdb1
+      FieldName = 'Image'
+      ImageControl = img1
+    end
+  end
+end

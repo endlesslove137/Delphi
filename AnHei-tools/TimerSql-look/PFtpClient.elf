@@ -1,0 +1,1248 @@
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Tue, 26 Jun 2012 19:04:23 +0800
+  1.2 Name/Description: PFtpClient.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Tue, 26 Jun 2012 19:04:21 +0800
+  1.6 Up Time         : 10 seconds
+
+Exception:
+-----------------------------------------------------
+  2.1 Date          : Tue, 26 Jun 2012 19:04:33 +0800
+  2.2 Address       : 004C45BA
+  2.3 Module Name   : PFtpClient.exe
+  2.4 Module Version: 
+  2.5 Type          : EIdNotConnected
+  2.6 Message       : Not connected.
+  2.7 ID            : 55D8
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Administrator
+  3.2 Name      : 
+  3.3 Email     : 
+  3.4 Company   : 
+  3.5 Privileges: SeIncreaseQuotaPrivilege        - OFF
+                  SeSecurityPrivilege             - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeLoadDriverPrivilege           - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeCreatePagefilePrivilege       - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeChangeNotifyPrivilege         - ON
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeUndockPrivilege               - OFF
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+                  SeIncreaseWorkingSetPrivilege   - OFF
+                  SeTimeZonePrivilege             - OFF
+                  SeCreateSymbolicLinkPrivilege   - OFF
+
+Active Controls:
+-----------------------------------
+  4.1 Form Class   : TFtpClientForm
+  4.2 Form Text    : FtpClientForm
+  4.3 Control Class: TButton
+  4.4 Control Text : ChangeDir
+
+Computer:
+-------------------------------------------------------------------------------------------------------------------------
+  5.1 Name          : FINALY
+  5.2 Total Memory  : 4029 Mb
+  5.3 Free Memory   : 1193 Mb
+  5.4 Total Disk    : 146.48 Gb
+  5.5 Free Disk     : 129.3 Gb
+  5.6 System Up Time: 8 hours, 56 minutes, 13 seconds
+  5.7 Processor     : Pentium(R) Dual-Core  CPU      E5500  @ 2.80GHz
+  5.8 Display Mode  : 1440 x 900, 32 bit
+  5.9 Display DPI   : 120
+  5.10 Video Card   : Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1) (driver 8.15.10.1749 - RAM 1822 MB)
+  5.11 Printer      : PDF-XChange 3.0 (driver 3.60)
+
+Operating System:
+--------------------------------------------
+  6.1 Type    : Microsoft Windows 7 (64 bit)
+  6.2 Build # : 7600
+  6.3 Update  : 
+  6.4 Language: Chinese (Simplified)
+  6.5 Charset : 134
+
+Network:
+---------------------------------------------------------------------
+  7.1 IP Address: 172.168.000.135 - 192.168.174.001 - 192.168.001.001
+  7.2 Submask   : 255.255.000.000 - 255.255.255.000 - 255.255.255.000
+  7.3 Gateway   : 172.168.000.001 - 000.000.000.000 - 000.000.000.000
+  7.4 DNS 1     : 202.096.128.086 - 000.000.000.000 - 000.000.000.000
+  7.5 DNS 2     : 202.096.128.068 - 000.000.000.000 - 000.000.000.000
+  7.6 DHCP      : OFF             - OFF             - OFF            
+
+Call Stack Information:
+-------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class         |Procedure/Method|Line  |
+-------------------------------------------------------------------------------
+|Running Thread: ID=332; Priority=0; Class=; [Main]                           |
+|-----------------------------------------------------------------------------|
+|0050DDE3|PFtpClient.exe|FtpClient.pas |TFtpClientForm|btn3Click       |258[1]|
+|0050FC9B|PFtpClient.exe|PFtpClient.dpr|              |                |13[3] |
+-------------------------------------------------------------------------------
+
+Modules Information:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name             |Description                                        |Version         |Size    |Modified           |Path                                                                                                          |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|PFtpClient.exe   |                                                   |                |1260544 |2012-06-26 19:04:22|D:\mine\°Ù¶ÈÍøÅÌ\ÎÒµÄÎÄµµ\work\program\delphi\FtpClient                                                       |
+|029D0000|ksfmon.dll       |KSafe Monitor                                      |3.5.1.2244      |1297312 |2012-05-18 17:29:48|C:\Program Files (x86)\KSafe                                                                                  |
+|02C70000|QQWUBI.IME       |QQÎå±ÊÊäÈë·¨                                       |2.0.305.400     |2344312 |2011-11-07 17:21:18|C:\Windows\system32                                                                                           |
+|04230000|ikutm.dll        |iKu Smart Network Module                           |3.1.0.6111      |283976  |2012-06-25 20:23:24|C:\Program Files (x86)\YouKu\common                                                                           |
+|10000000|kwsui.dll        |Kingsoft Webshield Module                          |2012.6.8.38     |556920  |2012-06-19 10:04:08|C:\Program Files (x86)\kingsoft\kingsoft antivirus                                                            |
+|72940000|dwmapi.dll       |Microsoft ×ÀÃæ´°¿Ú¹ÜÀíÆ÷ API                       |6.1.7600.16385  |67072   |2009-07-14 09:15:14|C:\Windows\system32                                                                                           |
+|72AE0000|apphelp.dll      |Ó¦ÓÃ³ÌÐò¼æÈÝÐÔ¿Í»§¶Ë¿â                             |6.1.7600.16385  |292352  |2009-07-14 09:14:54|C:\Windows\system32                                                                                           |
+|72B50000|uxtheme.dll      |Microsoft UxTheme ¿â                               |6.1.7600.16385  |245760  |2009-07-14 09:11:26|C:\Windows\system32                                                                                           |
+|72D60000|wkscli.dll       |Workstation Service Client DLL                     |6.1.7600.16385  |47104   |2009-07-14 09:16:20|C:\Windows\system32                                                                                           |
+|72D70000|srvcli.dll       |Server Service Client DLL                          |6.1.7600.16385  |90112   |2009-07-14 09:16:16|C:\Windows\system32                                                                                           |
+|72D90000|netutils.dll     |Net Win32 API Helpers DLL                          |6.1.7600.16385  |22016   |2009-07-14 09:16:04|C:\Windows\system32                                                                                           |
+|72DA0000|NETAPI32.dll     |Net Win32 API DLL                                  |6.1.7600.16385  |56832   |2009-07-14 09:16:04|C:\Windows\system32                                                                                           |
+|72DC0000|comctl32.dll     |¹«ÓÃ¿Ø¼þ¿â                                         |5.82.7600.16661 |530432  |2010-08-21 13:33:26|C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16661_none_ebfb56996c72aefc|
+|72E70000|comctl32.dll     |ÓÃ»§ÌåÑé¿Ø¼þ¿â                                     |6.10.7600.16661 |1680896 |2010-08-21 13:21:34|C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_420fe3fa2b8113bd |
+|73290000|WINSTA.dll       |Winstation Library                                 |6.1.7600.16385  |156160  |2009-07-14 09:16:20|C:\Windows\system32                                                                                           |
+|732D0000|MSIMG32.dll      |GDIEXT Client DLL                                  |6.1.7600.16385  |4608    |2009-07-14 09:15:46|C:\Windows\system32                                                                                           |
+|734B0000|wsock32.dll      |Windows Socket 32-Bit DLL                          |6.1.7600.16385  |15360   |2009-07-14 09:16:22|C:\Windows\system32                                                                                           |
+|73640000|WINMM.dll        |MCI API DLL                                        |6.1.7600.16385  |194048  |2009-07-14 09:16:20|C:\Windows\system32                                                                                           |
+|73720000|rsaenh.dll       |Microsoft Enhanced Cryptographic Provider          |6.1.7600.16385  |242936  |2009-07-14 09:17:56|C:\Windows\system32                                                                                           |
+|73760000|CRYPTSP.dll      |Cryptographic Service Provider API                 |6.1.7600.16385  |78848   |2009-07-14 09:15:08|C:\Windows\system32                                                                                           |
+|73780000|WTSAPI32.dll     |Windows Remote Desktop Session Host Server SDK APIs|6.1.7600.16385  |39936   |2009-07-14 09:16:22|C:\Windows\system32                                                                                           |
+|738C0000|profapi.dll      |User Profile Basic API                             |6.1.7600.16385  |31744   |2009-07-14 09:16:14|C:\Windows\system32                                                                                           |
+|738F0000|version.dll      |Version Checking and File Installation Libraries   |6.1.7600.16385  |21504   |2009-07-14 09:16:18|C:\Windows\system32                                                                                           |
+|73980000|pnrpnsp.dll      |PNRP ÃüÃû¿Õ¼äÌá¹©³ÌÐò                              |6.1.7600.16385  |65024   |2009-07-14 09:16:14|C:\Windows\system32                                                                                           |
+|739A0000|napinsp.dll      |µç×ÓÓÊ¼þÃüÃûÌî³äÌá¹©³ÌÐò                           |6.1.7600.16385  |52224   |2009-07-14 09:16:04|C:\Windows\system32                                                                                           |
+|739B0000|winrnr.dll       |LDAP RnR Provider DLL                              |6.1.7600.16385  |20992   |2009-07-14 09:16:20|C:\Windows\System32                                                                                           |
+|739C0000|DNSAPI.dll       |DNS ¿Í»§¶Ë API DLL                                 |6.1.7600.16772  |269824  |2011-03-03 13:29:24|C:\Windows\system32                                                                                           |
+|73A10000|NLAapi.dll       |Network Location Awareness 2                       |6.1.7600.16385  |51712   |2009-07-14 09:16:04|C:\Windows\system32                                                                                           |
+|73A20000|wshtcpip.dll     |Winsock2 °ïÖú³ÌÐò DLL (TL/IPv4)                    |6.1.7600.16385  |9216    |2009-07-14 09:16:22|C:\Windows\System32                                                                                           |
+|73A30000|ntmarta.dll      |Windows NT MARTA Ìá¹©³ÌÐò                          |6.1.7600.16385  |121856  |2009-07-14 09:16:12|C:\Windows\system32                                                                                           |
+|73A60000|mswsock.dll      |Microsoft Windows Sockets 2.0 ·þÎñÌá¹©³ÌÐò         |6.1.7600.16385  |232448  |2009-07-14 09:15:52|C:\Windows\System32                                                                                           |
+|74000000|WindowsCodecs.dll|Microsoft Windows Codecs Library                   |6.1.7600.16385  |1011200 |2009-07-14 09:16:20|C:\Windows\system32                                                                                           |
+|75000000|CRYPTBASE.dll    |Base cryptographic API DLL                         |6.1.7600.16385  |36864   |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                           |
+|75010000|SspiCli.dll      |Security Support Provider Interface                |6.1.7600.16915  |96768   |2011-11-17 13:35:14|C:\Windows\syswow64                                                                                           |
+|75070000|sechost.dll      |Host for SCM/SDDL/LSA Lookup APIs                  |6.1.7600.16385  |92160   |2009-07-14 09:16:14|C:\Windows\SysWOW64                                                                                           |
+|755B0000|comdlg32.dll     |Common Dialogs DLL                                 |6.1.7600.16385  |486912  |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                           |
+|75630000|WLDAP32.dll      |Win32 LDAP API DLL                                 |6.1.7600.16385  |268800  |2009-07-14 09:16:20|C:\Windows\syswow64                                                                                           |
+|75710000|USP10.dll        |Uniscribe Unicode script processor                 |1.626.7600.16385|627200  |2009-07-14 09:16:18|C:\Windows\syswow64                                                                                           |
+|757B0000|USER32.dll       |¶àÓÃ»§ Windows ÓÃ»§ API ¿Í»§¶Ë DLL                 |6.1.7600.16385  |833024  |2009-07-14 09:11:26|C:\Windows\syswow64                                                                                           |
+|758F0000|LPK.dll          |Language Pack                                      |6.1.7600.16385  |25600   |2009-07-14 09:11:24|C:\Windows\syswow64                                                                                           |
+|75910000|KERNELBASE.dll   |Windows NT »ù±¾ API ¿Í»§¶Ë DLL                     |6.1.7600.16850  |272384  |2011-07-16 12:30:28|C:\Windows\syswow64                                                                                           |
+|75960000|PSAPI.DLL        |Process Status Helper                              |6.1.7600.16385  |6144    |2009-07-14 09:16:14|C:\Windows\syswow64                                                                                           |
+|75970000|kernel32.dll     |Windows NT »ù±¾ API ¿Í»§¶Ë DLL                     |6.1.7600.16850  |1048576 |2011-07-16 12:30:28|C:\Windows\syswow64                                                                                           |
+|75A70000|MSCTF.dll        |MSCTF ·þÎñÆ÷ DLL                                   |6.1.7600.16385  |828928  |2009-07-14 09:15:44|C:\Windows\syswow64                                                                                           |
+|75B40000|ole32.dll        |ÓÃÓÚ Windows µÄ Microsoft OLE                      |6.1.7600.16624  |1413632 |2010-06-29 13:02:04|C:\Windows\syswow64                                                                                           |
+|75CA0000|msvcrt.dll       |Windows NT CRT DLL                                 |7.0.7600.16930  |690688  |2011-12-16 15:59:18|C:\Windows\syswow64                                                                                           |
+|75D50000|SHLWAPI.dll      |Íâ¿Ç¼òÒ×ÊµÓÃ¹¤¾ß¿â                                 |6.1.7600.16385  |350208  |2009-07-14 09:16:16|C:\Windows\syswow64                                                                                           |
+|75DB0000|WS2_32.dll       |Windows Socket 2.0 32 Î» DLL                       |6.1.7600.16385  |206336  |2009-07-14 09:16:22|C:\Windows\syswow64                                                                                           |
+|76140000|IMM32.DLL        |Multi-User Windows IMM32 API Client DLL            |6.1.7600.16385  |119808  |2009-07-14 09:11:22|C:\Windows\system32                                                                                           |
+|761A0000|ADVAPI32.dll     |¸ß¼¶ Windows 32 »ù±¾ API                           |6.1.7600.16385  |640000  |2009-07-14 09:14:54|C:\Windows\syswow64                                                                                           |
+|76240000|oleaut32.dll     |                                                   |6.1.7600.16872  |571904  |2011-08-27 12:43:08|C:\Windows\syswow64                                                                                           |
+|762D0000|GDI32.dll        |GDI Client DLL                                     |6.1.7600.16385  |310784  |2009-07-14 09:11:22|C:\Windows\syswow64                                                                                           |
+|76360000|RPCRT4.dll       |Ô¶³Ì¹ý³Ìµ÷ÓÃÔËÐÐÊ±                                 |6.1.7600.16385  |662528  |2009-07-14 09:11:24|C:\Windows\syswow64                                                                                           |
+|76450000|shell32.dll      |Windows Íâ¿Ç¹«ÓÃ DLL                               |6.1.7600.16644  |12867584|2010-07-27 22:03:26|C:\Windows\syswow64                                                                                           |
+|77470000|NSI.dll          |NSI User-mode interface DLL                        |6.1.7600.16385  |8704    |2009-07-14 09:16:12|C:\Windows\syswow64                                                                                           |
+|774A0000|ntdll.dll        |NT ²ã DLL                                          |6.1.7600.16915  |1292592 |2011-11-17 13:41:40|C:\Windows\SysWOW64                                                                                           |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                      |Description                           |Version        |Memory|Priority    |Threads|Path                                                     |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|0   |[System Process]          |                                      |               |0     |            |2      |                                                         |
+|4   |System                    |                                      |               |0     |Normal      |104    |                                                         |
+|276 |smss.exe                  |                                      |               |0     |Above-Normal|2      |                                                         |
+|292 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |15     |                                                         |
+|376 |csrss.exe                 |                                      |               |0     |High        |9      |                                                         |
+|392 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |10     |                                                         |
+|436 |csrss.exe                 |                                      |               |0     |High        |10     |                                                         |
+|444 |wininit.exe               |Windows Æô¶¯Ó¦ÓÃ³ÌÐò                  |6.1.7600.16385 |0     |High        |3      |                                                         |
+|492 |winlogon.exe              |                                      |               |0     |High        |3      |                                                         |
+|540 |services.exe              |                                      |               |0     |Normal      |9      |                                                         |
+|548 |lsass.exe                 |                                      |               |0     |Normal      |7      |                                                         |
+|560 |lsm.exe                   |                                      |               |0     |Normal      |10     |                                                         |
+|600 |wmpnetwk.exe              |                                      |               |0     |Normal      |9      |                                                         |
+|652 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |10     |                                                         |
+|772 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |9      |                                                         |
+|832 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |22     |                                                         |
+|904 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |12     |                                                         |
+|948 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |28     |                                                         |
+|1028|iexplore.exe              |Internet Explorer                     |8.0.7600.17006 |0     |Normal      |14     |C:\Program Files (x86)\Internet Explorer                 |
+|1072|kxescore.exe              |                                      |               |0     |Normal      |74     |                                                         |
+|1112|KSafeSvc.exe              |                                      |               |0     |Normal      |50     |                                                         |
+|1300|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |8      |                                                         |
+|1328|spoolsv.exe               |                                      |               |0     |Normal      |12     |                                                         |
+|1356|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |18     |                                                         |
+|1456|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |8      |                                                         |
+|1496|mysqld-nt.exe             |                                      |               |0     |Normal      |15     |                                                         |
+|1552|QQBrowserUpdateService.exe|                                      |               |0     |Normal      |7      |                                                         |
+|1580|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |7      |                                                         |
+|1812|tenpaycert.exe            |                                      |               |0     |Normal      |6      |                                                         |
+|1928|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |5      |                                                         |
+|2060|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |14     |                                                         |
+|2260|SearchIndexer.exe         |Microsoft Windows Search Ë÷ÒýÆ÷       |7.0.7600.16385 |0     |Normal      |13     |                                                         |
+|2276|taskhost.exe              |                                      |               |0     |Normal      |9      |                                                         |
+|2472|QQ.exe                    |QQ2011                                |1.70.2432.0    |0     |Normal      |20     |D:\Program Files (x86)\Tencent\QQ\Bin                    |
+|2488|dwm.exe                   |                                      |               |0     |High        |5      |                                                         |
+|2524|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |26     |                                                         |
+|2624|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |7      |                                                         |
+|2704|EMEDITOR.EXE              |EmEditor                              |11.0.5.0       |0     |Normal      |6      |C:\Program Files (x86)\EmEditor                          |
+|2740|mengchang_jk.exe          |ÃÎ³©µçÄÔÄÖÖÓ¼Æ»®¼ÆÊ±³ÌÐò              |6.4.9.0        |0     |Normal      |3      |C:\Program Files (x86)\mengchang                         |
+|2828|KSafeTray.exe             |½ðÉ½ÎÀÊ¿ÊµÊ±±£»¤Ä£¿é                  |3.5.1.2244     |0     |Normal      |27     |C:\Program Files (x86)\KSafe                             |
+|2836|kxetray.exe               |½ðÉ½¶¾°Ô2012                          |2012.6.14.65   |0     |Normal      |40     |C:\Program Files (x86)\kingsoft\kingsoft antivirus       |
+|2848|scheduler.exe             |Teleport Scheduler                    |1.50.0.0       |0     |Normal      |1      |C:\Program Files (x86)\Teleport Pro                      |
+|3024|QQExternal.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |6      |D:\Program Files (x86)\Tencent\QQ\Bin                    |
+|3124|QQExternal.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |12     |D:\Program Files (x86)\Tencent\QQ\Bin                    |
+|3156|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |11     |                                                         |
+|3432|dexplore.exe              |Microsoft Document Explorer           |7.10.3077.0    |0     |Normal      |6      |C:\Program Files (x86)\Common Files\Microsoft Shared\Help|
+|3504|QQ.exe                    |QQ2011                                |1.70.2432.0    |0     |Normal      |25     |D:\Program Files (x86)\Tencent\QQ\Bin                    |
+|3560|iexplore.exe              |                                      |               |0     |Normal      |11     |                                                         |
+|3668|TSVNCache.exe             |TortoiseSVN status cache              |1.6.7.18415    |0     |Normal      |39     |                                                         |
+|3848|QQExternal.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |6      |D:\Program Files (x86)\Tencent\QQ\Bin                    |
+|3948|TXPlatform.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |4      |d:\Program Files (x86)\Tencent\QQ\Bin                    |
+|4008|baiduwangpan.exe          |BaiduWangpan                          |2.0.4.9        |0     |Normal      |23     |C:\Program Files (x86)\baidu\BaiduWangpan                |
+|4048|QQ.exe                    |QQ2011                                |1.70.2432.0    |0     |Normal      |21     |D:\Program Files (x86)\Tencent\QQ\Bin                    |
+|4284|PFtpClient.exe            |                                      |               |0     |Normal      |4      |D:\mine\°Ù¶ÈÍøÅÌ\ÎÒµÄÎÄµµ\work\program\delphi\FtpClient  |
+|4488|iexplore.exe              |                                      |               |0     |Normal      |28     |                                                         |
+|4708|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |14     |                                                         |
+|4744|SearchProtocolHost.exe    |Microsoft Windows Search Protocol Host|7.0.7600.16385 |0     |Low         |8      |                                                         |
+|5368|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |14     |                                                         |
+|5408|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |8      |                                                         |
+|5500|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |14     |                                                         |
+|5512|bds.exe                   |Borland? Developer Studio for Windows |10.0.2151.25345|0     |Normal      |28     |C:\Program Files (x86)\Borland\BDS\4.0\Bin               |
+|5556|SearchFilterHost.exe      |Microsoft Windows Search Filter Host  |7.0.7600.16385 |0     |Low         |5      |                                                         |
+|5592|QQExternal.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |6      |D:\Program Files (x86)\Tencent\QQ\Bin                    |
+|5992|iexplore.exe              |Internet Explorer                     |8.0.7600.17006 |0     |Normal      |16     |C:\Program Files (x86)\Internet Explorer                 |
+|6088|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |7      |                                                         |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+-----------------------------------------------------------------
+; IdException.EIdException.Toss 
+; ------------------------------
+004C45AC  push    ebx
+004C45AD  push    esi
+004C45AE  mov     esi, edx
+004C45B0  mov     ebx, eax
+004C45B2  mov     ecx, esi
+004C45B4  mov     dl, $01
+004C45B6  mov     eax, ebx
+004C45B8  call    dword ptr [eax]
+004C45BA  call    PFtpClient.System._RaiseExcept  ; <-- EXCEPTION
+004C45BF  pop     esi
+004C45C0  pop     ebx
+004C45C1  ret
+
+Registers:
+-----------------------------
+EAX: 01E4E0E0   EDI: 0018F6B0
+EBX: 004CF770   ESI: 004D8CE8
+ECX: 00000000   ESP: 0018F480
+EDX: 004C45BF   EIP: 004C45BA
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0018F480: 0018F4CC   004C45BA: E8 35 04 F4 FF 5E 5B C3 8B C0 10 46 4C 00 00 00  .5...^[....FL...
+0018F484: 01DF3F20   004C45CA: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0018F488: 004C4587   004C45DA: 00 00 00 00 00 00 00 00 00 00 10 46 4C 00 04 00  ...........FL...
+0018F48C: 004D8CDD   004C45EA: 00 00 04 3E 4C 00 C4 42 40 00 D0 42 40 00 D4 42  ...>L..B@..B@..B
+0018F490: 004D885A   004C45FA: 40 00 D8 42 40 00 CC 42 40 00 14 40 40 00 30 40  @..B@..B@..@@.0@
+0018F494: 0018F4B8   004C460A: 40 00 6C 40 40 00 0B 54 49 64 53 79 73 57 69 6E  @.l@@..TIdSysWin
+0018F498: 004048D0   004C461A: 33 32 68 46 4C 00 00 00 00 00 00 00 00 00 00 00  32hFL...........
+0018F49C: 0018F4AC   004C462A: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0018F4A0: 00480101   004C463A: 00 00 6C 46 4C 00 0C 00 00 00 80 40 4C 00 C4 42  ..lFL......@L..B
+0018F4A4: 004ED794   004C464A: 40 00 D0 42 40 00 D4 42 40 00 D8 42 40 00 CC 42  @..B@..B@..B@..B
+0018F4A8: 00000000   004C465A: 40 00 14 40 40 00 30 40 40 00 6C 40 40 00 F0 44  @..@@.0@@.l@@..D
+0018F4AC: 0018F4D4   004C466A: 4C 00 1F 45 49 64 46 61 69 6C 65 64 54 6F 52 65  L..EIdFailedToRe
+0018F4B0: 004D89C5   004C467A: 74 72 65 69 76 65 54 69 6D 65 5A 6F 6E 65 49 6E  treiveTimeZoneIn
+0018F4B4: 00000000   004C468A: 66 6F 55 8B EC 81 C4 44 FF FF FF 53 56 57 33 D2  foU....D...SVW3.
+0018F4B8: 0018F4DC   004C469A: 89 95 44 FF FF FF 89 95 48 FF FF FF 8B F0 33 C0  ..D.....H.....3.
+0018F4BC: 004048D0   004C46AA: 55 68 DB 47 4C 00 64 FF 30 64 89 20 8D 85 4C FF  Uh.GL.d.0d. ..L.
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Thu, 28 Jun 2012 15:06:08 +0800
+  1.2 Name/Description: PFtpClient.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Thu, 28 Jun 2012 15:06:04 +0800
+  1.6 Up Time         : 28 seconds
+
+Exception:
+----------------------------------------------------------------------------------
+  2.1 Date          : Thu, 28 Jun 2012 15:06:36 +0800
+  2.2 Address       : 00411A43
+  2.3 Module Name   : PFtpClient.exe
+  2.4 Module Version: 
+  2.5 Type          : EVariantTypeCastError
+  2.6 Message       : Could not convert variant of type (Null) into type (String).
+  2.7 ID            : 48E0
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Administrator
+  3.2 Name      : 
+  3.3 Email     : 
+  3.4 Company   : 
+  3.5 Privileges: SeLockMemoryPrivilege           - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeSecurityPrivilege             - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeLoadDriverPrivilege           - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeCreatePagefilePrivilege       - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeChangeNotifyPrivilege         - ON
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeUndockPrivilege               - OFF
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+                  SeIncreaseWorkingSetPrivilege   - OFF
+                  SeTimeZonePrivilege             - OFF
+                  SeCreateSymbolicLinkPrivilege   - OFF
+
+Active Controls:
+-----------------------------------
+  4.1 Form Class   : TFtpClientForm
+  4.2 Form Text    : FtpClientForm
+  4.3 Control Class: TButton
+  4.4 Control Text : btn15
+
+Computer:
+-------------------------------------------------------------------------------------------------------------------------
+  5.1 Name          : FINALY
+  5.2 Total Memory  : 4029 Mb
+  5.3 Free Memory   : 1515 Mb
+  5.4 Total Disk    : 146.48 Gb
+  5.5 Free Disk     : 129.25 Gb
+  5.6 System Up Time: 5 hours, 25 minutes, 45 seconds
+  5.7 Processor     : Pentium(R) Dual-Core  CPU      E5500  @ 2.80GHz
+  5.8 Display Mode  : 1440 x 900, 32 bit
+  5.9 Display DPI   : 120
+  5.10 Video Card   : Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1) (driver 8.15.10.1749 - RAM 1822 MB)
+  5.11 Printer      : PDF-XChange 3.0 (driver 3.60)
+
+Operating System:
+--------------------------------------------
+  6.1 Type    : Microsoft Windows 7 (64 bit)
+  6.2 Build # : 7600
+  6.3 Update  : 
+  6.4 Language: Chinese (Simplified)
+  6.5 Charset : 134
+
+Network:
+---------------------------------------------------------------------
+  7.1 IP Address: 172.168.000.135 - 192.168.174.001 - 192.168.001.001
+  7.2 Submask   : 255.255.000.000 - 255.255.255.000 - 255.255.255.000
+  7.3 Gateway   : 172.168.000.001 - 000.000.000.000 - 000.000.000.000
+  7.4 DNS 1     : 202.096.128.086 - 000.000.000.000 - 000.000.000.000
+  7.5 DNS 2     : 202.096.128.068 - 000.000.000.000 - 000.000.000.000
+  7.6 DHCP      : OFF             - OFF             - OFF            
+
+Call Stack Information:
+-------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class         |Procedure/Method|Line  |
+-------------------------------------------------------------------------------
+|Running Thread: ID=5188; Priority=0; Class=; [Main]                          |
+|-----------------------------------------------------------------------------|
+|0052859B|PFtpClient.exe|FtpClient.pas |TFtpClientForm|SelectNode      |413[5]|
+|0052853C|PFtpClient.exe|FtpClient.pas |TFtpClientForm|SelectNode      |408[0]|
+|005285FE|PFtpClient.exe|FtpClient.pas |TFtpClientForm|btn15Click      |420[1]|
+|0052AC9B|PFtpClient.exe|PFtpClient.dpr|              |                |14[3] |
+-------------------------------------------------------------------------------
+
+Modules Information:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name             |Description                                        |Version           |Size    |Modified           |Path                                                                                                          |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|PFtpClient.exe   |                                                   |                  |1391616 |2012-06-28 15:06:06|D:\mine\°Ù¶ÈÍøÅÌ\ÎÒµÄÎÄµµ\work\program\delphi\FtpClient                                                       |
+|02C10000|ksfmon.dll       |KSafe Monitor                                      |3.5.1.2244        |1297312 |2012-05-18 17:29:48|C:\Program Files (x86)\KSafe                                                                                  |
+|02EF0000|QQWUBI.IME       |QQÎå±ÊÊäÈë·¨                                       |2.0.305.400       |2344312 |2011-11-07 17:21:18|C:\Windows\system32                                                                                           |
+|10000000|kwsui.dll        |Kingsoft Webshield Module                          |2012.6.8.38       |556920  |2012-06-19 10:04:08|C:\Program Files (x86)\kingsoft\kingsoft antivirus                                                            |
+|6F640000|MSOXMLMF.DLL     |Microsoft Office XML MIME Filter                   |12.0.4518.1014    |44344   |2006-10-26 21:41:48|C:\Program Files (x86)\Common Files\microsoft shared\OFFICE12                                                 |
+|70840000|msxml3.dll       |MSXML 3.0 SP11                                     |8.110.7600.16605  |1233920 |2010-06-08 14:02:08|C:\Windows\System32                                                                                           |
+|72690000|WindowsCodecs.dll|Microsoft Windows Codecs Library                   |6.1.7600.16385    |1011200 |2009-07-14 09:16:20|C:\Windows\system32                                                                                           |
+|72880000|dwmapi.dll       |Microsoft ×ÀÃæ´°¿Ú¹ÜÀíÆ÷ API                       |6.1.7600.16385    |67072   |2009-07-14 09:15:14|C:\Windows\system32                                                                                           |
+|72B80000|apphelp.dll      |Ó¦ÓÃ³ÌÐò¼æÈÝÐÔ¿Í»§¶Ë¿â                             |6.1.7600.16385    |292352  |2009-07-14 09:14:54|C:\Windows\system32                                                                                           |
+|72CF0000|uxtheme.dll      |Microsoft UxTheme ¿â                               |6.1.7600.16385    |245760  |2009-07-14 09:11:26|C:\Windows\system32                                                                                           |
+|72D70000|comctl32.dll     |ÓÃ»§ÌåÑé¿Ø¼þ¿â                                     |6.10.7600.16661   |1680896 |2010-08-21 13:21:34|C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_420fe3fa2b8113bd |
+|730A0000|comctl32.dll     |¹«ÓÃ¿Ø¼þ¿â                                         |5.82.7600.16661   |530432  |2010-08-21 13:33:26|C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16661_none_ebfb56996c72aefc|
+|732B0000|msimg32.dll      |GDIEXT Client DLL                                  |6.1.7600.16385    |4608    |2009-07-14 09:15:46|C:\Windows\system32                                                                                           |
+|732C0000|wkscli.dll       |Workstation Service Client DLL                     |6.1.7600.16385    |47104   |2009-07-14 09:16:20|C:\Windows\system32                                                                                           |
+|732D0000|srvcli.dll       |Server Service Client DLL                          |6.1.7600.16385    |90112   |2009-07-14 09:16:16|C:\Windows\system32                                                                                           |
+|732F0000|NETAPI32.dll     |Net Win32 API DLL                                  |6.1.7600.16385    |56832   |2009-07-14 09:16:04|C:\Windows\system32                                                                                           |
+|73330000|netutils.dll     |Net Win32 API Helpers DLL                          |6.1.7600.16385    |22016   |2009-07-14 09:16:04|C:\Windows\system32                                                                                           |
+|73380000|WINSTA.dll       |Winstation Library                                 |6.1.7600.16385    |156160  |2009-07-14 09:16:20|C:\Windows\system32                                                                                           |
+|73520000|wsock32.dll      |Windows Socket 32-Bit DLL                          |6.1.7600.16385    |15360   |2009-07-14 09:16:22|C:\Windows\system32                                                                                           |
+|73710000|WINMM.dll        |MCI API DLL                                        |6.1.7600.16385    |194048  |2009-07-14 09:16:20|C:\Windows\system32                                                                                           |
+|737F0000|rsaenh.dll       |Microsoft Enhanced Cryptographic Provider          |6.1.7600.16385    |242936  |2009-07-14 09:17:56|C:\Windows\system32                                                                                           |
+|73830000|CRYPTSP.dll      |Cryptographic Service Provider API                 |6.1.7600.16385    |78848   |2009-07-14 09:15:08|C:\Windows\system32                                                                                           |
+|73850000|WTSAPI32.dll     |Windows Remote Desktop Session Host Server SDK APIs|6.1.7600.16385    |39936   |2009-07-14 09:16:22|C:\Windows\system32                                                                                           |
+|73900000|profapi.dll      |User Profile Basic API                             |6.1.7600.16385    |31744   |2009-07-14 09:16:14|C:\Windows\system32                                                                                           |
+|73930000|version.dll      |Version Checking and File Installation Libraries   |6.1.7600.16385    |21504   |2009-07-14 09:16:18|C:\Windows\system32                                                                                           |
+|73A20000|WINNSI.DLL       |Network Store Information RPC interface            |6.1.7600.16385    |16896   |2009-07-14 09:16:20|C:\Windows\system32                                                                                           |
+|73A30000|iphlpapi.DLL     |IP Helper API                                      |6.1.7600.16385    |103936  |2009-07-14 09:15:34|C:\Windows\system32                                                                                           |
+|73A50000|pnrpnsp.dll      |PNRP ÃüÃû¿Õ¼äÌá¹©³ÌÐò                              |6.1.7600.16385    |65024   |2009-07-14 09:16:14|C:\Windows\system32                                                                                           |
+|73A70000|napinsp.dll      |µç×ÓÓÊ¼þÃüÃûÌî³äÌá¹©³ÌÐò                           |6.1.7600.16385    |52224   |2009-07-14 09:16:04|C:\Windows\system32                                                                                           |
+|73A80000|winrnr.dll       |LDAP RnR Provider DLL                              |6.1.7600.16385    |20992   |2009-07-14 09:16:20|C:\Windows\System32                                                                                           |
+|73A90000|DNSAPI.dll       |DNS ¿Í»§¶Ë API DLL                                 |6.1.7600.16772    |269824  |2011-03-03 13:29:24|C:\Windows\system32                                                                                           |
+|73AE0000|NLAapi.dll       |Network Location Awareness 2                       |6.1.7600.16385    |51712   |2009-07-14 09:16:04|C:\Windows\system32                                                                                           |
+|73B00000|ntmarta.dll      |Windows NT MARTA Ìá¹©³ÌÐò                          |6.1.7600.16385    |121856  |2009-07-14 09:16:12|C:\Windows\system32                                                                                           |
+|73B30000|mswsock.dll      |Microsoft Windows Sockets 2.0 ·þÎñÌá¹©³ÌÐò         |6.1.7600.16385    |232448  |2009-07-14 09:15:52|C:\Windows\System32                                                                                           |
+|74A00000|MSVCR80.dll      |Microsoft? C Runtime Library                       |8.0.50727.4927    |632656  |2009-06-11 05:23:12|C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5                |
+|750D0000|CRYPTBASE.dll    |Base cryptographic API DLL                         |6.1.7600.16385    |36864   |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                           |
+|750E0000|SspiCli.dll      |Security Support Provider Interface                |6.1.7600.16915    |96768   |2011-11-17 13:35:14|C:\Windows\syswow64                                                                                           |
+|75140000|USP10.dll        |Uniscribe Unicode script processor                 |1.626.7600.16385  |627200  |2009-07-14 09:16:18|C:\Windows\syswow64                                                                                           |
+|751E0000|oleaut32.dll     |                                                   |6.1.7600.16872    |571904  |2011-08-27 12:43:08|C:\Windows\syswow64                                                                                           |
+|75270000|NSI.dll          |NSI User-mode interface DLL                        |6.1.7600.16385    |8704    |2009-07-14 09:16:12|C:\Windows\syswow64                                                                                           |
+|75280000|comdlg32.dll     |Common Dialogs DLL                                 |6.1.7600.16385    |486912  |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                           |
+|75330000|WININET.dll      |Win32 µÄ Internet À©Õ¹                             |8.0.7600.17024    |981504  |2012-05-15 11:08:50|C:\Windows\syswow64                                                                                           |
+|75490000|USER32.dll       |¶àÓÃ»§ Windows ÓÃ»§ API ¿Í»§¶Ë DLL                 |6.1.7600.16385    |833024  |2009-07-14 09:11:26|C:\Windows\syswow64                                                                                           |
+|755A0000|kernel32.dll     |Windows NT »ù±¾ API ¿Í»§¶Ë DLL                     |6.1.7600.16850    |1048576 |2011-07-16 12:30:28|C:\Windows\syswow64                                                                                           |
+|756A0000|CLBCatQ.DLL      |COM+ Configuration Catalog                         |2001.12.8530.16385|522240  |2009-07-14 09:15:04|C:\Windows\syswow64                                                                                           |
+|758D0000|GDI32.dll        |GDI Client DLL                                     |6.1.7600.16385    |310784  |2009-07-14 09:11:22|C:\Windows\syswow64                                                                                           |
+|75960000|RPCRT4.dll       |Ô¶³Ì¹ý³Ìµ÷ÓÃÔËÐÐÊ±                                 |6.1.7600.16385    |662528  |2009-07-14 09:11:24|C:\Windows\syswow64                                                                                           |
+|75A50000|MSCTF.dll        |MSCTF ·þÎñÆ÷ DLL                                   |6.1.7600.16385    |828928  |2009-07-14 09:15:44|C:\Windows\syswow64                                                                                           |
+|75B20000|WLDAP32.dll      |Win32 LDAP API DLL                                 |6.1.7600.16385    |268800  |2009-07-14 09:16:20|C:\Windows\syswow64                                                                                           |
+|75B70000|shell32.dll      |Windows Íâ¿Ç¹«ÓÃ DLL                               |6.1.7600.16644    |12867584|2010-07-27 22:03:26|C:\Windows\syswow64                                                                                           |
+|767C0000|IMM32.DLL        |Multi-User Windows IMM32 API Client DLL            |6.1.7600.16385    |119808  |2009-07-14 09:11:22|C:\Windows\system32                                                                                           |
+|76820000|ole32.dll        |ÓÃÓÚ Windows µÄ Microsoft OLE                      |6.1.7600.16624    |1413632 |2010-06-29 13:02:04|C:\Windows\syswow64                                                                                           |
+|76980000|CRYPT32.dll      |¼ÓÃÜ API32                                         |6.1.7600.16385    |1151488 |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                           |
+|76B50000|SHLWAPI.dll      |Íâ¿Ç¼òÒ×ÊµÓÃ¹¤¾ß¿â                                 |6.1.7600.16385    |350208  |2009-07-14 09:16:16|C:\Windows\syswow64                                                                                           |
+|76BB0000|KERNELBASE.dll   |Windows NT »ù±¾ API ¿Í»§¶Ë DLL                     |6.1.7600.16850    |272384  |2011-07-16 12:30:28|C:\Windows\syswow64                                                                                           |
+|76C00000|iertutil.dll     |Run time utility for Internet Explorer             |8.0.7600.17006    |2072576 |2012-04-20 13:05:36|C:\Windows\syswow64                                                                                           |
+|76E00000|urlmon.dll       |Win32 µÄ OLE32 À©Õ¹                                |8.0.7600.17006    |1230336 |2012-04-20 13:07:28|C:\Windows\syswow64                                                                                           |
+|76F40000|sechost.dll      |Host for SCM/SDDL/LSA Lookup APIs                  |6.1.7600.16385    |92160   |2009-07-14 09:16:14|C:\Windows\SysWOW64                                                                                           |
+|76F60000|MSASN1.dll       |ASN.1 Runtime APIs                                 |6.1.7600.16415    |34816   |2009-08-29 14:57:32|C:\Windows\syswow64                                                                                           |
+|76F70000|PSAPI.DLL        |Process Status Helper                              |6.1.7600.16385    |6144    |2009-07-14 09:16:14|C:\Windows\syswow64                                                                                           |
+|76F80000|WS2_32.dll       |Windows Socket 2.0 32 Î» DLL                       |6.1.7600.16385    |206336  |2009-07-14 09:16:22|C:\Windows\syswow64                                                                                           |
+|77020000|ADVAPI32.dll     |¸ß¼¶ Windows 32 »ù±¾ API                           |6.1.7600.16385    |640000  |2009-07-14 09:14:54|C:\Windows\syswow64                                                                                           |
+|770C0000|msvcrt.dll       |Windows NT CRT DLL                                 |7.0.7600.16930    |690688  |2011-12-16 15:59:18|C:\Windows\syswow64                                                                                           |
+|77540000|LPK.dll          |Language Pack                                      |6.1.7600.16385    |25600   |2009-07-14 09:11:24|C:\Windows\syswow64                                                                                           |
+|77570000|ntdll.dll        |NT ²ã DLL                                          |6.1.7600.16915    |1292592 |2011-11-17 13:41:40|C:\Windows\SysWOW64                                                                                           |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                      |Description                          |Version        |Memory|Priority    |Threads|Path                                                                                                             |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|0   |[System Process]          |                                     |               |0     |            |2      |                                                                                                                 |
+|4   |System                    |                                     |               |0     |Normal      |105    |                                                                                                                 |
+|276 |smss.exe                  |                                     |               |0     |Above-Normal|2      |                                                                                                                 |
+|372 |csrss.exe                 |                                     |               |0     |High        |9      |                                                                                                                 |
+|396 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |10     |                                                                                                                 |
+|432 |csrss.exe                 |                                     |               |0     |High        |11     |                                                                                                                 |
+|440 |wininit.exe               |Windows Æô¶¯Ó¦ÓÃ³ÌÐò                 |6.1.7600.16385 |0     |High        |3      |                                                                                                                 |
+|488 |winlogon.exe              |                                     |               |0     |High        |3      |                                                                                                                 |
+|540 |services.exe              |                                     |               |0     |Normal      |7      |                                                                                                                 |
+|548 |lsass.exe                 |                                     |               |0     |Normal      |7      |                                                                                                                 |
+|560 |lsm.exe                   |                                     |               |0     |Normal      |11     |                                                                                                                 |
+|596 |bds.exe                   |Borland? Developer Studio for Windows|10.0.2151.25345|0     |Normal      |17     |C:\Program Files (x86)\Borland\BDS\4.0\Bin                                                                       |
+|652 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |11     |                                                                                                                 |
+|772 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |8      |                                                                                                                 |
+|848 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |15     |                                                                                                                 |
+|852 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |18     |                                                                                                                 |
+|908 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |12     |                                                                                                                 |
+|936 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |32     |                                                                                                                 |
+|1084|kxescore.exe              |                                     |               |0     |Normal      |73     |                                                                                                                 |
+|1132|KSafeSvc.exe              |                                     |               |0     |Normal      |47     |                                                                                                                 |
+|1360|spoolsv.exe               |                                     |               |0     |Normal      |12     |                                                                                                                 |
+|1388|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |18     |                                                                                                                 |
+|1456|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                   |6.1.7600.16450 |0     |Normal      |7      |                                                                                                                 |
+|1528|mysqld-nt.exe             |                                     |               |0     |Normal      |15     |                                                                                                                 |
+|1592|QQBrowserUpdateService.exe|                                     |               |0     |Normal      |7      |                                                                                                                 |
+|1808|tenpaycert.exe            |                                     |               |0     |Normal      |6      |                                                                                                                 |
+|2044|QQBrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |7      |C:\Program Files (x86)\Tencent\QQBrowser                                                                         |
+|2072|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |5      |                                                                                                                 |
+|2252|wmpnetwk.exe              |                                     |               |0     |Normal      |10     |                                                                                                                 |
+|2276|TSVNCache.exe             |TortoiseSVN status cache             |1.6.7.18415    |0     |Normal      |21     |                                                                                                                 |
+|2436|iexplore.exe              |Internet Explorer                    |8.0.7600.17006 |0     |Normal      |17     |C:\Program Files (x86)\Internet Explorer                                                                         |
+|2452|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                   |6.1.7600.16450 |0     |Normal      |7      |                                                                                                                 |
+|2560|taskhost.exe              |                                     |               |0     |Normal      |9      |                                                                                                                 |
+|2772|dwm.exe                   |                                     |               |0     |High        |5      |                                                                                                                 |
+|2796|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                   |6.1.7600.16450 |0     |Normal      |25     |                                                                                                                 |
+|2892|mengchang_jk.exe          |ÃÎ³©µçÄÔÄÖÖÓ¼Æ»®¼ÆÊ±³ÌÐò             |6.4.9.0        |0     |Normal      |6      |C:\Program Files (x86)\mengchang                                                                                 |
+|2928|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |11     |                                                                                                                 |
+|2936|SearchIndexer.exe         |Microsoft Windows Search Ë÷ÒýÆ÷      |7.0.7600.16385 |0     |Normal      |12     |                                                                                                                 |
+|2956|KSafeTray.exe             |½ðÉ½ÎÀÊ¿ÊµÊ±±£»¤Ä£¿é                 |3.5.1.2244     |0     |Normal      |24     |C:\Program Files (x86)\KSafe                                                                                     |
+|3000|kxetray.exe               |½ðÉ½¶¾°Ô2012                         |2012.6.21.104  |0     |Normal      |40     |C:\Program Files (x86)\kingsoft\kingsoft antivirus                                                               |
+|3016|scheduler.exe             |Teleport Scheduler                   |1.50.0.0       |0     |Normal      |1      |C:\Program Files (x86)\Teleport Pro                                                                              |
+|3088|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                   |6.1.7600.16450 |0     |Normal      |14     |                                                                                                                 |
+|3372|taskhost.exe              |                                     |               |0     |Below-Normal|8      |                                                                                                                 |
+|3448|EMEDITOR.EXE              |EmEditor                             |11.0.5.0       |0     |Normal      |6      |C:\Program Files (x86)\EmEditor                                                                                  |
+|3456|TXPlatform.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |4      |d:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|3476|QQBrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |5      |C:\Program Files (x86)\Tencent\QQBrowser                                                                         |
+|3584|QQ.exe                    |QQ2011                               |1.70.2432.0    |0     |Normal      |20     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|3632|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                   |6.1.7600.16450 |0     |Normal      |13     |                                                                                                                 |
+|3684|QQBrowserExtHost.exe      |QQBrowserExtHost                     |6.14.14517.201 |0     |Normal      |39     |C:\Program Files (x86)\Tencent\QQBrowser                                                                         |
+|3756|QBDownloader.exe          |ÏÂÔØ¹ÜÀí-QQä¯ÀÀÆ÷                    |1.0.0.1        |0     |Normal      |4      |C:\Program Files (x86)\Tencent\QQBrowser\6.14.14517.201\extensions\{7EDBEBE6-565F-4aa2-93A1-AD250445A5B6}\1.2.3.4|
+|3764|QQBrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |33     |C:\Program Files (x86)\Tencent\QQBrowser                                                                         |
+|3840|iexplore.exe              |                                     |               |0     |Normal      |11     |                                                                                                                 |
+|3848|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |14     |                                                                                                                 |
+|3856|QQ.exe                    |QQ2011                               |1.70.2432.0    |0     |Normal      |20     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4048|QQ.exe                    |QQ2011                               |1.70.2432.0    |0     |Normal      |19     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4120|QQExternal.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |6      |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4172|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                   |6.1.7600.16450 |0     |Normal      |7      |                                                                                                                 |
+|4240|QQExternal.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |11     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4364|iexplore.exe              |Internet Explorer                    |8.0.7600.17006 |0     |Normal      |16     |C:\Program Files (x86)\Internet Explorer                                                                         |
+|4428|iexplore.exe              |Internet Explorer                    |8.0.7600.17006 |0     |Normal      |18     |C:\Program Files (x86)\Internet Explorer                                                                         |
+|4792|QQExternal.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |10     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4852|bds.exe                   |Borland? Developer Studio for Windows|10.0.2151.25345|0     |Normal      |19     |C:\Program Files (x86)\Borland\BDS\4.0\Bin                                                                       |
+|5072|iexplore.exe              |                                     |               |0     |Normal      |35     |                                                                                                                 |
+|5100|QQExternal.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |10     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|5236|QQBrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |13     |C:\Program Files (x86)\Tencent\QQBrowser                                                                         |
+|5748|QQBrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |7      |C:\Program Files (x86)\Tencent\QQBrowser                                                                         |
+|5772|QQBrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |30     |C:\Program Files (x86)\Tencent\QQBrowser                                                                         |
+|5840|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                   |6.1.7600.16450 |0     |Normal      |7      |                                                                                                                 |
+|5852|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                   |6.1.7600.16450 |0     |Normal      |14     |                                                                                                                 |
+|5864|PFtpClient.exe            |                                     |               |0     |Normal      |4      |D:\mine\°Ù¶ÈÍøÅÌ\ÎÒµÄÎÄµµ\work\program\delphi\FtpClient                                                          |
+|5940|dexplore.exe              |Microsoft Document Explorer          |7.10.3077.0    |0     |Normal      |5      |C:\Program Files (x86)\Common Files\Microsoft Shared\Help                                                        |
+|6108|QQBrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |30     |C:\Program Files (x86)\Tencent\QQBrowser                                                                         |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+---------------------------------------------------------------------
+; Variants.VarCastError (Line=0 - Offset=0)
+; -----------------------------------------
+00411A21  lea     eax, [ebp-$10]
+00411A24  push    eax
+00411A25  push    $01
+00411A27  lea     edx, [ebp-$1C]
+00411A2A  mov     eax, dword ptr [$534DF4]
+00411A2F  call    PFtpClient.System.LoadResString
+00411A34  mov     ecx, [ebp-$1C]
+00411A37  mov     dl, $01
+00411A39  mov     eax, dword ptr [Variants.Variants]
+00411A3E  call    SysUtils.Exception.CreateFmt
+00411A43  call    PFtpClient.System._RaiseExcept      ; <-- EXCEPTION
+00411A48  xor     eax, eax
+00411A4A  pop     edx
+00411A4B  pop     ecx
+00411A4C  pop     ecx
+00411A4D  mov     fs:[eax], edx
+00411A50  push    $00411A6A                           ; '^[‹å]ÃU‹ìj'
+00411A55  lea     eax, [ebp-$1C]
+00411A58  mov     edx, $00000003                      ; ''...
+00411A5D  call    PFtpClient.System._LStrArrayClr
+00411A62  ret
+
+Registers:
+-----------------------------
+EAX: 01FCE310   EDI: 0018F6B0
+EBX: 00000001   ESI: 00000100
+ECX: 00000000   ESP: 0018F414
+EDX: 00411A48   EIP: 00411A43
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0018F414: 0018F44C   00411A43: E8 5C 30 FF FF 33 C0 5A 59 59 64 89 10 68 6A 1A  .\0..3.ZYYd..hj.
+0018F418: 00404980   00411A53: 41 00 8D 45 E4 BA 03 00 00 00 E8 F2 36 FF FF C3  A..E........6...
+0018F41C: 0018F444   00411A63: E9 98 2E FF FF EB EB 5E 5B 8B E5 5D C3 55 8B EC  .......^[..].U..
+0018F420: 0018F500   00411A73: 6A 00 33 C0 55 68 BA 1A 41 00 64 FF 30 64 89 20  j.3.Uh..A.d.0d. 
+0018F424: 0018F4F0   00411A83: 8D 55 FC A1 D0 51 53 00 E8 34 58 FF FF 8B 4D FC  .U...QS..4X...M.
+0018F428: 00000000   00411A93: B2 01 A1 5C 14 41 00 E8 35 CC FF FF E8 00 30 FF  ...\.A..5.....0.
+0018F42C: 00000000   00411AA3: FF 33 C0 5A 59 59 64 89 10 68 C1 1A 41 00 8D 45  .3.ZYYd..h..A..E
+0018F430: 00000000   00411AB3: FC E8 77 36 FF FF C3 E9 41 2E FF FF EB F0 59 5D  ..w6....A.....Y]
+0018F434: 01FD9C78   00411AC3: C3 55 8B EC 6A 00 33 C0 55 68 0E 1B 41 00 64 FF  .U..j.3.Uh..A.d.
+0018F438: 0200000B   00411AD3: 30 64 89 20 8D 55 FC A1 60 52 53 00 E8 E0 57 FF  0d. .U..`RS...W.
+0018F43C: 01FD9EB8   00411AE3: FF 8B 4D FC B2 01 A1 18 19 41 00 E8 E1 CB FF FF  ..M......A......
+0018F440: 04964F0B   00411AF3: E8 AC 2F FF FF 33 C0 5A 59 59 64 89 10 68 15 1B  ../..3.ZYYd..h..
+0018F444: 0018F4D4   00411B03: 41 00 8D 45 FC E8 23 36 FF FF C3 E9 ED 2D FF FF  A..E..#6.....-..
+0018F448: 004155E8   00411B13: EB F0 59 5D C3 55 8B EC 83 C4 E4 53 56 33 C9 89  ..Y].U.....SV3..
+0018F44C: 0018F4DC   00411B23: 4D EC 89 4D E8 89 4D E4 8B F2 8B D8 33 C0 55 68  M..M..M.....3.Uh
+0018F450: 00404980   00411B33: A7 1B 41 00 64 FF 30 64 89 20 8D 55 EC 8B C3 E8  ..A.d.0d. .U....
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Fri, 20 Jul 2012 16:18:08 +0800
+  1.2 Name/Description: PFtpClient.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Fri, 20 Jul 2012 16:17:58 +0800
+  1.6 Up Time         : 1 second
+
+Exception:
+----------------------------------------------------------------------------------------------------------------
+  2.1 Date          : Fri, 20 Jul 2012 16:18:10 +0800
+  2.2 Address       : 0051F12C
+  2.3 Module Name   : PFtpClient.exe
+  2.4 Module Version: 
+  2.5 Type          : EAccessViolation
+  2.6 Message       : Access violation at address 0051F12C in module 'PFtpClient.exe'. Read of address 00000014.
+  2.7 ID            : 118F
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Administrator
+  3.2 Name      : 
+  3.3 Email     : 
+  3.4 Company   : 
+  3.5 Privileges: SeLockMemoryPrivilege           - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeSecurityPrivilege             - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeLoadDriverPrivilege           - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeCreatePagefilePrivilege       - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeChangeNotifyPrivilege         - ON
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeUndockPrivilege               - OFF
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+                  SeIncreaseWorkingSetPrivilege   - OFF
+                  SeTimeZonePrivilege             - OFF
+                  SeCreateSymbolicLinkPrivilege   - OFF
+
+Active Controls:
+-----------------------------------
+  4.1 Form Class   : TFtpClientForm
+  4.2 Form Text    : ÏÉº£ Ftp¿Í»§¶Ë
+  4.3 Control Class: TListView
+  4.4 Control Text : 
+
+Computer:
+-------------------------------------------------------------------------------------------------------------------------
+  5.1 Name          : FINALY
+  5.2 Total Memory  : 4029 Mb
+  5.3 Free Memory   : 1345 Mb
+  5.4 Total Disk    : 146.48 Gb
+  5.5 Free Disk     : 125.79 Gb
+  5.6 System Up Time: 2 hours, 41 minutes, 56 seconds
+  5.7 Processor     : Pentium(R) Dual-Core  CPU      E5500  @ 2.80GHz
+  5.8 Display Mode  : 1440 x 900, 32 bit
+  5.9 Display DPI   : 120
+  5.10 Video Card   : Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1) (driver 8.15.10.1749 - RAM 1822 MB)
+  5.11 Printer      : PDF-XChange 3.0 (driver 3.60)
+
+Operating System:
+--------------------------------------------
+  6.1 Type    : Microsoft Windows 7 (64 bit)
+  6.2 Build # : 7600
+  6.3 Update  : 
+  6.4 Language: Chinese (Simplified)
+  6.5 Charset : 134
+
+Network:
+---------------------------------------------------------------------
+  7.1 IP Address: 172.168.000.135 - 192.168.174.001 - 192.168.001.001
+  7.2 Submask   : 255.255.000.000 - 255.255.255.000 - 255.255.255.000
+  7.3 Gateway   : 172.168.000.001 - 000.000.000.000 - 000.000.000.000
+  7.4 DNS 1     : 202.096.128.086 - 000.000.000.000 - 000.000.000.000
+  7.5 DNS 2     : 202.096.128.068 - 000.000.000.000 - 000.000.000.000
+  7.6 DHCP      : OFF             - OFF             - OFF            
+
+Call Stack Information:
+--------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class         |Procedure/Method|Line   |
+--------------------------------------------------------------------------------
+|*Exception Thread: ID=3672; Priority=0; Class=; [Main]                        |
+|------------------------------------------------------------------------------|
+|0051F12C|PFtpClient.exe|FtpClient.pas |TFtpClientForm|SaveNoad        |780[1] |
+|0051F108|PFtpClient.exe|FtpClient.pas |TFtpClientForm|SaveNoad        |779[0] |
+|0051FEDA|PFtpClient.exe|FtpClient.pas |TFtpClientForm|btnsaveClick    |1160[1]|
+|0051F3F6|PFtpClient.exe|FtpClient.pas |TFtpClientForm|tv1Changing     |810[1] |
+|00522C88|PFtpClient.exe|PFtpClient.dpr|              |                |16[4]  |
+--------------------------------------------------------------------------------
+
+Modules Information:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name             |Description                                        |Version           |Size    |Modified           |Path                                                                                                         |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|PFtpClient.exe   |                                                   |                  |1370112 |2012-07-20 16:18:00|D:\mine\°Ù¶ÈÍøÅÌ\ÎÒµÄÎÄµµ\work\program\delphi\FtpClient                                                      |
+|02EB0000|ksfmon.dll       |KSafe Monitor                                      |3.5.1.2244        |1297312 |2012-05-18 17:29:48|C:\Program Files (x86)\KSafe                                                                                 |
+|032F0000|QQWUBI.IME       |QQÎå±ÊÊäÈë·¨                                       |2.0.305.400       |2344312 |2011-11-07 17:21:18|C:\Windows\system32                                                                                          |
+|10000000|kwsui.dll        |Kingsoft Webshield Module                          |2012.6.8.38       |556920  |2012-06-19 10:04:08|C:\Program Files (x86)\kingsoft\kingsoft antivirus                                                           |
+|6FAD0000|TSVulFW.DAT      |TSVulFW                                            |7.1.2901.201      |558496  |2012-06-28 02:49:14|C:\ProgramData\Tencent\TSVulFw                                                                               |
+|71AB0000|dwmapi.dll       |Microsoft ×ÀÃæ´°¿Ú¹ÜÀíÆ÷ API                       |6.1.7600.16385    |67072   |2009-07-14 09:15:14|C:\Windows\system32                                                                                          |
+|71AD0000|uxtheme.dll      |Microsoft UxTheme ¿â                               |6.1.7600.16385    |245760  |2009-07-14 09:11:26|C:\Windows\system32                                                                                          |
+|71B50000|MSIMG32.dll      |GDIEXT Client DLL                                  |6.1.7600.16385    |4608    |2009-07-14 09:15:46|C:\Windows\system32                                                                                          |
+|71D80000|wsock32.dll      |Windows Socket 32-Bit DLL                          |6.1.7600.16385    |15360   |2009-07-14 09:16:22|C:\Windows\system32                                                                                          |
+|71F40000|MSOXMLMF.DLL     |Microsoft Office XML MIME Filter                   |12.0.4518.1014    |44344   |2006-10-26 21:41:48|C:\Program Files (x86)\Common Files\microsoft shared\OFFICE12                                                |
+|72040000|RICHED32.DLL     |Wrapper Dll for Richedit 1.0                       |6.1.7600.16385    |8192    |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|72070000|rasman.dll       |Remote Access Connection Manager                   |6.1.7600.16385    |76800   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|72090000|RASAPI32.dll     |Remote Access API                                  |6.1.7600.16385    |325120  |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|72200000|apphelp.dll      |Ó¦ÓÃ³ÌÐò¼æÈÝÐÔ¿Í»§¶Ë¿â                             |6.1.7600.16385    |292352  |2009-07-14 09:14:54|C:\Windows\system32                                                                                          |
+|72250000|WINSTA.dll       |Winstation Library                                 |6.1.7600.16385    |156160  |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|72280000|comctl32.dll     |ÓÃ»§ÌåÑé¿Ø¼þ¿â                                     |6.10.7600.16661   |1680896 |2010-08-21 13:21:34|C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_420fe3fa2b8113bd|
+|72610000|winspool.drv     |Windows ºóÌ¨´¦Àí³ÌÐòÇý¶¯³ÌÐò                       |6.1.7600.16385    |319488  |2009-07-14 09:14:10|C:\Windows\system32                                                                                          |
+|72810000|WINMM.dll        |MCI API DLL                                        |6.1.7600.16385    |194048  |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|72E40000|pnrpnsp.dll      |PNRP ÃüÃû¿Õ¼äÌá¹©³ÌÐò                              |6.1.7600.16385    |65024   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|72E60000|napinsp.dll      |µç×ÓÓÊ¼þÃüÃûÌî³äÌá¹©³ÌÐò                           |6.1.7600.16385    |52224   |2009-07-14 09:16:04|C:\Windows\system32                                                                                          |
+|72E70000|winrnr.dll       |LDAP RnR Provider DLL                              |6.1.7600.16385    |20992   |2009-07-14 09:16:20|C:\Windows\System32                                                                                          |
+|72E80000|DNSAPI.dll       |DNS ¿Í»§¶Ë API DLL                                 |6.1.7600.16772    |269824  |2011-03-03 13:29:24|C:\Windows\system32                                                                                          |
+|72ED0000|NLAapi.dll       |Network Location Awareness 2                       |6.1.7600.16385    |51712   |2009-07-14 09:16:04|C:\Windows\system32                                                                                          |
+|72EF0000|ntmarta.dll      |Windows NT MARTA Ìá¹©³ÌÐò                          |6.1.7600.16385    |121856  |2009-07-14 09:16:12|C:\Windows\system32                                                                                          |
+|72F20000|mswsock.dll      |Microsoft Windows Sockets 2.0 ·þÎñÌá¹©³ÌÐò         |6.1.7600.16385    |232448  |2009-07-14 09:15:52|C:\Windows\System32                                                                                          |
+|73180000|WindowsCodecs.dll|Microsoft Windows Codecs Library                   |6.1.7600.16385    |1011200 |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|73280000|RICHED20.dll     |Rich Text Edit Control, v3.1                       |5.31.23.1229      |473600  |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|742A0000|msxml3.dll       |MSXML 3.0 SP11                                     |8.110.7600.17036  |1236992 |2012-06-06 13:09:48|C:\Windows\System32                                                                                          |
+|74510000|rsaenh.dll       |Microsoft Enhanced Cryptographic Provider          |6.1.7600.16385    |242936  |2009-07-14 09:17:56|C:\Windows\system32                                                                                          |
+|74550000|CRYPTSP.dll      |Cryptographic Service Provider API                 |6.1.7600.16385    |78848   |2009-07-14 09:15:08|C:\Windows\system32                                                                                          |
+|747C0000|WINNSI.DLL       |Network Store Information RPC interface            |6.1.7600.16385    |16896   |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|747D0000|iphlpapi.dll     |IP Helper API                                      |6.1.7600.16385    |103936  |2009-07-14 09:15:34|C:\Windows\system32                                                                                          |
+|747F0000|wkscli.dll       |Workstation Service Client DLL                     |6.1.7600.16385    |47104   |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|74800000|srvcli.dll       |Server Service Client DLL                          |6.1.7600.16385    |90112   |2009-07-14 09:16:16|C:\Windows\system32                                                                                          |
+|74820000|netutils.dll     |Net Win32 API Helpers DLL                          |6.1.7600.16385    |22016   |2009-07-14 09:16:04|C:\Windows\system32                                                                                          |
+|74830000|NETAPI32.dll     |Net Win32 API DLL                                  |6.1.7600.16385    |56832   |2009-07-14 09:16:04|C:\Windows\system32                                                                                          |
+|748E0000|WTSAPI32.dll     |Windows Remote Desktop Session Host Server SDK APIs|6.1.7600.16385    |39936   |2009-07-14 09:16:22|C:\Windows\system32                                                                                          |
+|748F0000|profapi.dll      |User Profile Basic API                             |6.1.7600.16385    |31744   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|74920000|MSVCR80.dll      |Microsoft? C Runtime Library                       |8.0.50727.4927    |632656  |2009-06-11 05:23:12|C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5               |
+|749C0000|MSVCP80.dll      |Microsoft? C++ Runtime Library                     |8.0.50727.4927    |554816  |2009-06-11 05:23:12|C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5               |
+|74A50000|version.dll      |Version Checking and File Installation Libraries   |6.1.7600.16385    |21504   |2009-07-14 09:16:18|C:\Windows\system32                                                                                          |
+|74B20000|CRYPTBASE.dll    |Base cryptographic API DLL                         |6.1.7600.16385    |36864   |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                          |
+|74B30000|SspiCli.dll      |Security Support Provider Interface                |6.1.7600.17035    |96768   |2012-06-02 12:42:52|C:\Windows\syswow64                                                                                          |
+|74B90000|oleaut32.dll     |                                                   |6.1.7600.16872    |571904  |2011-08-27 12:43:08|C:\Windows\syswow64                                                                                          |
+|74C20000|kernel32.dll     |Windows NT »ù±¾ API ¿Í»§¶Ë DLL                     |6.1.7600.16850    |1048576 |2011-07-16 12:30:28|C:\Windows\syswow64                                                                                          |
+|74D20000|GDI32.dll        |GDI Client DLL                                     |6.1.7600.16385    |310784  |2009-07-14 09:11:22|C:\Windows\syswow64                                                                                          |
+|74DF0000|NSI.dll          |NSI User-mode interface DLL                        |6.1.7600.16385    |8704    |2009-07-14 09:16:12|C:\Windows\syswow64                                                                                          |
+|74E00000|CRYPT32.dll      |¼ÓÃÜ API32                                         |6.1.7600.16385    |1151488 |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                          |
+|74F20000|USER32.dll       |¶àÓÃ»§ Windows ÓÃ»§ API ¿Í»§¶Ë DLL                 |6.1.7600.16385    |833024  |2009-07-14 09:11:26|C:\Windows\syswow64                                                                                          |
+|75020000|MSCTF.dll        |MSCTF ·þÎñÆ÷ DLL                                   |6.1.7600.16385    |828928  |2009-07-14 09:15:44|C:\Windows\syswow64                                                                                          |
+|750F0000|imagehlp.dll     |Windows NT Image Helper                            |6.1.7600.16970    |158720  |2012-03-01 13:45:06|C:\Windows\syswow64                                                                                          |
+|75120000|RPCRT4.dll       |Ô¶³Ì¹ý³Ìµ÷ÓÃÔËÐÐÊ±                                 |6.1.7600.16385    |662528  |2009-07-14 09:11:24|C:\Windows\syswow64                                                                                          |
+|75240000|ole32.dll        |ÓÃÓÚ Windows µÄ Microsoft OLE                      |6.1.7600.16624    |1413632 |2010-06-29 13:02:04|C:\Windows\syswow64                                                                                          |
+|753A0000|IMM32.DLL        |Multi-User Windows IMM32 API Client DLL            |6.1.7600.16385    |119808  |2009-07-14 09:11:22|C:\Windows\system32                                                                                          |
+|75400000|PSAPI.DLL        |Process Status Helper                              |6.1.7600.16385    |6144    |2009-07-14 09:16:14|C:\Windows\syswow64                                                                                          |
+|755B0000|sechost.dll      |Host for SCM/SDDL/LSA Lookup APIs                  |6.1.7600.16385    |92160   |2009-07-14 09:16:14|C:\Windows\SysWOW64                                                                                          |
+|755D0000|MSASN1.dll       |ASN.1 Runtime APIs                                 |6.1.7600.16415    |34816   |2009-08-29 14:57:32|C:\Windows\syswow64                                                                                          |
+|755E0000|ADVAPI32.dll     |¸ß¼¶ Windows 32 »ù±¾ API                           |6.1.7600.16385    |640000  |2009-07-14 09:14:54|C:\Windows\syswow64                                                                                          |
+|75680000|SHLWAPI.dll      |Íâ¿Ç¼òÒ×ÊµÓÃ¹¤¾ß¿â                                 |6.1.7600.16385    |350208  |2009-07-14 09:16:16|C:\Windows\syswow64                                                                                          |
+|756E0000|shell32.dll      |Windows Íâ¿Ç¹«ÓÃ DLL                               |6.1.7600.17038    |12868608|2012-06-09 12:46:58|C:\Windows\syswow64                                                                                          |
+|76330000|urlmon.dll       |Win32 µÄ OLE32 À©Õ¹                                |8.0.7600.17006    |1230336 |2012-04-20 13:07:28|C:\Windows\syswow64                                                                                          |
+|76470000|WS2_32.dll       |Windows Socket 2.0 32 Î» DLL                       |6.1.7600.16385    |206336  |2009-07-14 09:16:22|C:\Windows\syswow64                                                                                          |
+|764B0000|WININET.dll      |Win32 µÄ Internet À©Õ¹                             |8.0.7600.17024    |981504  |2012-05-15 11:08:50|C:\Windows\syswow64                                                                                          |
+|765B0000|USP10.dll        |Uniscribe Unicode script processor                 |1.626.7600.16385  |627200  |2009-07-14 09:16:18|C:\Windows\syswow64                                                                                          |
+|76670000|KERNELBASE.dll   |Windows NT »ù±¾ API ¿Í»§¶Ë DLL                     |6.1.7600.16850    |272384  |2011-07-16 12:30:28|C:\Windows\syswow64                                                                                          |
+|767B0000|CLBCatQ.DLL      |COM+ Configuration Catalog                         |2001.12.8530.16385|522240  |2009-07-14 09:15:04|C:\Windows\syswow64                                                                                          |
+|76840000|iertutil.dll     |Run time utility for Internet Explorer             |8.0.7600.17006    |2072576 |2012-04-20 13:05:36|C:\Windows\syswow64                                                                                          |
+|76A40000|comdlg32.dll     |Common Dialogs DLL                                 |6.1.7600.16385    |486912  |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                          |
+|76AC0000|msvcrt.dll       |Windows NT CRT DLL                                 |7.0.7600.16930    |690688  |2011-12-16 15:59:18|C:\Windows\syswow64                                                                                          |
+|76B70000|WLDAP32.dll      |Win32 LDAP API DLL                                 |6.1.7600.16385    |268800  |2009-07-14 09:16:20|C:\Windows\syswow64                                                                                          |
+|76F90000|LPK.dll          |Language Pack                                      |6.1.7600.16385    |25600   |2009-07-14 09:11:24|C:\Windows\syswow64                                                                                          |
+|76FC0000|ntdll.dll        |NT ²ã DLL                                          |6.1.7600.16915    |1292592 |2011-11-17 13:41:40|C:\Windows\SysWOW64                                                                                          |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                      |Description                           |Version        |Memory|Priority    |Threads|Path                                                                                                             |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|0   |[System Process]          |                                      |               |0     |            |2      |                                                                                                                 |
+|4   |System                    |                                      |               |0     |Normal      |117    |                                                                                                                 |
+|212 |qqbrowser.exe             |QQBrowser                             |6.14.14517.201 |0     |Normal      |7      |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|280 |smss.exe                  |                                      |               |0     |Above-Normal|2      |                                                                                                                 |
+|292 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |35     |                                                                                                                 |
+|376 |csrss.exe                 |                                      |               |0     |High        |9      |                                                                                                                 |
+|432 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |13     |                                                                                                                 |
+|436 |csrss.exe                 |                                      |               |0     |High        |10     |                                                                                                                 |
+|444 |wininit.exe               |Windows Æô¶¯Ó¦ÓÃ³ÌÐò                  |6.1.7600.16385 |0     |High        |3      |                                                                                                                 |
+|492 |winlogon.exe              |                                      |               |0     |High        |3      |                                                                                                                 |
+|528 |dwm.exe                   |                                      |               |0     |High        |5      |                                                                                                                 |
+|540 |services.exe              |                                      |               |0     |Normal      |9      |                                                                                                                 |
+|548 |lsass.exe                 |                                      |               |0     |Normal      |7      |                                                                                                                 |
+|560 |lsm.exe                   |                                      |               |0     |Normal      |10     |                                                                                                                 |
+|660 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |10     |                                                                                                                 |
+|844 |QQPCRTP.exe               |QQµçÄÔ¹Ü¼ÒÊµÊ±·À»¤·þÎñ                |6.8.2351.202   |0     |Normal      |41     |                                                                                                                 |
+|868 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |8      |                                                                                                                 |
+|968 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |19     |                                                                                                                 |
+|1020|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |13     |                                                                                                                 |
+|1132|QQPCTray.exe              |QQµçÄÔ¹Ü¼Ò-ÍÐÅÌ³ÌÐò                   |6.8.2369.202   |0     |Normal      |39     |d:\Program Files (x86)\Tencent\QQPCMgr\6.8.2385.401                                                              |
+|1140|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |15     |                                                                                                                 |
+|1216|kxescore.exe              |                                      |               |0     |Normal      |74     |                                                                                                                 |
+|1276|KSafeSvc.exe              |                                      |               |0     |Normal      |49     |                                                                                                                 |
+|1284|mysqld-nt.exe             |                                      |               |0     |Normal      |15     |                                                                                                                 |
+|1844|spoolsv.exe               |                                      |               |0     |Normal      |13     |                                                                                                                 |
+|1872|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |19     |                                                                                                                 |
+|1956|mengchang_jk.exe          |ÃÎ³©µçÄÔÄÖÖÓ¼Æ»®¼ÆÊ±³ÌÐò              |6.4.9.0        |0     |Normal      |6      |C:\Program Files (x86)\mengchang                                                                                 |
+|2080|QQBrowserUpdateService.exe|                                      |               |0     |Normal      |7      |                                                                                                                 |
+|2116|tenpaycert.exe            |                                      |               |0     |Normal      |6      |                                                                                                                 |
+|2152|qqbrowser.exe             |QQBrowser                             |6.14.14517.201 |0     |Normal      |31     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|2296|bds.exe                   |Borland? Developer Studio for Windows |10.0.2151.25345|0     |Normal      |19     |C:\Program Files (x86)\Borland\BDS\4.0\Bin                                                                       |
+|2300|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                    |6.1.7600.16450 |0     |Normal      |28     |                                                                                                                 |
+|2456|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |5      |                                                                                                                 |
+|2512|TSVNCache.exe             |TortoiseSVN status cache              |1.6.7.18415    |0     |Normal      |13     |                                                                                                                 |
+|2732|qqbrowser.exe             |QQBrowser                             |6.14.14517.201 |0     |Normal      |5      |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|2832|Serv-U-Tray.exe           |                                      |               |0     |Normal      |4      |                                                                                                                 |
+|2908|taskhost.exe              |                                      |               |0     |Normal      |9      |                                                                                                                 |
+|3060|qqbrowser.exe             |QQBrowser                             |6.14.14517.201 |0     |Normal      |27     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|3156|SearchProtocolHost.exe    |Microsoft Windows Search Protocol Host|7.0.7600.16385 |0     |Low         |8      |                                                                                                                 |
+|3176|KSafeTray.exe             |½ðÉ½ÎÀÊ¿ÊµÊ±±£»¤Ä£¿é                  |3.5.1.2244     |0     |Normal      |26     |C:\Program Files (x86)\KSafe                                                                                     |
+|3184|kxetray.exe               |½ðÉ½¶¾°Ô2012                          |2012.7.9.190   |0     |Normal      |40     |C:\Program Files (x86)\kingsoft\kingsoft antivirus                                                               |
+|3192|scheduler.exe             |Teleport Scheduler                    |1.50.0.0       |0     |Normal      |1      |C:\Program Files (x86)\Teleport Pro                                                                              |
+|3356|TXPlatform.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |4      |d:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|3480|QQExternal.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |6      |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|3692|SearchIndexer.exe         |Microsoft Windows Search Ë÷ÒýÆ÷       |7.0.7600.16385 |0     |Normal      |13     |                                                                                                                 |
+|3756|QQ.exe                    |QQ2011                                |1.70.2432.0    |0     |Normal      |20     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|3780|SearchFilterHost.exe      |Microsoft Windows Search Filter Host  |7.0.7600.16385 |0     |Low         |5      |                                                                                                                 |
+|4088|qqbrowser.exe             |QQBrowser                             |6.14.14517.201 |0     |Normal      |16     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|4108|QQExternal.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |6      |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4296|QQPCWebShield.exe         |QQµçÄÔ¹Ü¼ÒÍøÒ³·À»ðÇ½½ø³Ì              |6.8.2306.201   |0     |Normal      |32     |d:\Program Files (x86)\Tencent\QQPCMgr\6.8.2385.401                                                              |
+|4640|QQ.exe                    |QQ2011                                |1.70.2432.0    |0     |Normal      |23     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4852|QQBrowserExtHost.exe      |QQBrowserExtHost                      |6.14.14517.201 |0     |Normal      |42     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|4856|QQ.exe                    |QQ2011                                |1.70.2432.0    |0     |Normal      |20     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|5104|iexplore.exe              |                                      |               |0     |Normal      |12     |                                                                                                                 |
+|5148|QQExternal.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |6      |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|5176|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |14     |                                                                                                                 |
+|5280|qqbrowser.exe             |QQBrowser                             |6.14.14517.201 |0     |Normal      |44     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|5444|iexplore.exe              |                                      |               |0     |Normal      |36     |                                                                                                                 |
+|5484|qqbrowser.exe             |QQBrowser                             |6.14.14517.201 |0     |Normal      |32     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|5708|qqbrowser.exe             |QQBrowser                             |6.14.14517.201 |0     |Normal      |7      |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|5740|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                    |6.1.7600.16385 |0     |Normal      |10     |                                                                                                                 |
+|5812|EMEDITOR.EXE              |EmEditor                              |11.0.5.0       |0     |Normal      |6      |C:\Program Files (x86)\EmEditor                                                                                  |
+|5864|qqbrowser.exe             |QQBrowser                             |6.14.14517.201 |0     |Normal      |33     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|5916|QBDownloader.exe          |ÏÂÔØ¹ÜÀí-QQä¯ÀÀÆ÷                     |1.0.0.1        |0     |Normal      |4      |C:\program files (x86)\tencent\qqbrowser\6.14.14517.201\extensions\{7EDBEBE6-565F-4aa2-93A1-AD250445A5B6}\1.2.3.4|
+|6060|QQExternal.exe            |QQ2011                                |1.70.2410.0    |0     |Normal      |12     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|6972|PFtpClient.exe            |                                      |               |0     |Normal      |4      |D:\mine\°Ù¶ÈÍøÅÌ\ÎÒµÄÎÄµµ\work\program\delphi\FtpClient                                                          |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+---------------------------------------------------------------------------------
+; FtpClient.TFtpClientForm.SaveNoad (Line=779 - Offset=0)
+; -------------------------------------------------------
+0051F117  push    ecx
+0051F118  push    ebx
+0051F119  push    esi
+0051F11A  mov     esi, edx
+0051F11C  mov     ebx, eax
+0051F11E  xor     eax, eax
+0051F120  push    ebp
+0051F121  push    $0051F33D                                     ; 'éJUîÿë“^[‹å]Ã'
+0051F126  push    dword ptr fs:[eax]
+0051F129  mov     fs:[eax], esp
+;
+; Line=780 - Offset=1
+; -------------------
+0051F12C  cmp     dword ptr [esi+$14], +$09                     ; <-- EXCEPTION
+0051F130  jnz     FtpClient.TFtpClientForm.SaveNoad (Line=793)
+;
+; Line=781 - Offset=2
+; -------------------
+0051F136  test    esi, esi
+0051F138  jz      FtpClient.TFtpClientForm.SaveNoad (Line=793)
+;
+; Line=783 - Offset=4
+; -------------------
+0051F13E  lea     edx, [ebp-$14]
+0051F141  mov     eax, [ebx+$0460]
+0051F147  call    Controls.TControl.GetText
+0051F14C  mov     edx, [ebp-$14]
+0051F14F  lea     eax, [ebp-$10]
+0051F152  call    Variants._OleVarFromLStr
+0051F157  push    dword ptr [ebp-$04]
+
+Registers:
+-----------------------------
+EAX: 00000000   EDI: 0000BC4E
+EBX: 005F7690   ESI: 00000000
+ECX: 00000000   ESP: 0018F3E0
+EDX: 00000000   EIP: 0051F12C
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0018F3E0: 0018F4A8   0051F12C: 83 7E 14 09 0F 85 94 01 00 00 85 F6 0F 84 8C 01  .~..............
+0018F3E4: 0040490C   0051F13C: 00 00 8D 55 EC 8B 83 60 04 00 00 E8 90 B8 F8 FF  ...U...`........
+0018F3E8: 0018F470   0051F14C: 8B 55 EC 8D 45 F0 E8 95 94 EF FF FF 75 FC FF 75  .U..E.......u..u
+0018F3EC: 004FB4A8   0051F15C: F8 FF 75 F4 FF 75 F0 68 50 F3 51 00 8B 83 84 04  ..u..u.hP.Q.....
+0018F3F0: 005F7690   0051F16C: 00 00 50 8B 00 FF 90 B4 00 00 00 E8 E8 7C EE FF  ..P..........|..
+0018F3F4: 00000000   0051F17C: 8D 55 D8 8B 83 54 04 00 00 E8 52 B8 F8 FF 8B 55  .U...T....R....U
+0018F3F8: 00000000   0051F18C: D8 8D 45 DC E8 57 94 EF FF FF 75 E8 FF 75 E4 FF  ..E..W....u..u..
+0018F3FC: 00000000   0051F19C: 75 E0 FF 75 DC 68 60 F3 51 00 8B 83 84 04 00 00  u..u.h`.Q.......
+0018F400: 00000000   0051F1AC: 50 8B 00 FF 90 B4 00 00 00 E8 AA 7C EE FF 8D 55  P..........|...U
+0018F404: 00000000   0051F1BC: C4 8B 83 58 04 00 00 E8 14 B8 F8 FF 8B 55 C4 8D  ...X.........U..
+0018F408: 00000000   0051F1CC: 45 C8 E8 19 94 EF FF FF 75 D4 FF 75 D0 FF 75 CC  E.......u..u..u.
+0018F40C: 00000000   0051F1DC: FF 75 C8 68 78 F3 51 00 8B 83 84 04 00 00 50 8B  .u.hx.Q.......P.
+0018F410: 00000000   0051F1EC: 00 FF 90 B4 00 00 00 E8 6C 7C EE FF 8D 55 B0 8B  ........l|...U..
+0018F414: 00000000   0051F1FC: 83 50 04 00 00 E8 D6 B7 F8 FF 8B 55 B0 8D 45 B4  .P.........U..E.
+0018F418: 00000000   0051F20C: E8 DB 93 EF FF FF 75 C0 FF 75 BC FF 75 B8 FF 75  ......u..u..u..u
+0018F41C: 00000000   0051F21C: B4 68 90 F3 51 00 8B 83 84 04 00 00 50 8B 00 FF  .h..Q.......P...
+
+
+
+EurekaLog 6.0.21
+
+Application:
+-------------------------------------------------------
+  1.1 Start Date      : Fri, 20 Jul 2012 17:09:27 +0800
+  1.2 Name/Description: PFtpClient.exe
+  1.3 Version Number  : 
+  1.4 Parameters      : 
+  1.5 Compilation Date: Fri, 20 Jul 2012 17:09:11 +0800
+  1.6 Up Time         : 3 minutes, 10 seconds
+
+Exception:
+-----------------------------------------------------
+  2.1 Date          : Fri, 20 Jul 2012 17:12:37 +0800
+  2.2 Address       : 0042721E
+  2.3 Module Name   : PFtpClient.exe
+  2.4 Module Version: 
+  2.5 Type          : EIdConnClosedGracefully
+  2.6 Message       : Connection Closed Gracefully.
+  2.7 ID            : 95D9
+  2.8 Count         : 1
+  2.9 Status        : New
+  2.10 Note         : 
+
+User:
+-------------------------------------------------------
+  3.1 ID        : Administrator
+  3.2 Name      : 
+  3.3 Email     : 
+  3.4 Company   : 
+  3.5 Privileges: SeLockMemoryPrivilege           - OFF
+                  SeIncreaseQuotaPrivilege        - OFF
+                  SeSecurityPrivilege             - OFF
+                  SeTakeOwnershipPrivilege        - OFF
+                  SeLoadDriverPrivilege           - OFF
+                  SeSystemProfilePrivilege        - OFF
+                  SeSystemtimePrivilege           - OFF
+                  SeProfileSingleProcessPrivilege - OFF
+                  SeIncreaseBasePriorityPrivilege - OFF
+                  SeCreatePagefilePrivilege       - OFF
+                  SeBackupPrivilege               - OFF
+                  SeRestorePrivilege              - OFF
+                  SeShutdownPrivilege             - OFF
+                  SeDebugPrivilege                - OFF
+                  SeSystemEnvironmentPrivilege    - OFF
+                  SeChangeNotifyPrivilege         - ON
+                  SeRemoteShutdownPrivilege       - OFF
+                  SeUndockPrivilege               - OFF
+                  SeManageVolumePrivilege         - OFF
+                  SeImpersonatePrivilege          - ON
+                  SeCreateGlobalPrivilege         - ON
+                  SeIncreaseWorkingSetPrivilege   - OFF
+                  SeTimeZonePrivilege             - OFF
+                  SeCreateSymbolicLinkPrivilege   - OFF
+
+Active Controls:
+-----------------------------------
+  4.1 Form Class   : TFtpClientForm
+  4.2 Form Text    : ÏÉº£ Ftp¿Í»§¶Ë
+  4.3 Control Class: 
+  4.4 Control Text : 
+
+Computer:
+-------------------------------------------------------------------------------------------------------------------------
+  5.1 Name          : FINALY
+  5.2 Total Memory  : 4029 Mb
+  5.3 Free Memory   : 1240 Mb
+  5.4 Total Disk    : 146.48 Gb
+  5.5 Free Disk     : 125.79 Gb
+  5.6 System Up Time: 3 hours, 36 minutes, 23 seconds
+  5.7 Processor     : Pentium(R) Dual-Core  CPU      E5500  @ 2.80GHz
+  5.8 Display Mode  : 1440 x 900, 32 bit
+  5.9 Display DPI   : 120
+  5.10 Video Card   : Intel(R) G41 Express Chipset (Microsoft Corporation - WDDM 1.1) (driver 8.15.10.1749 - RAM 1822 MB)
+  5.11 Printer      : PDF-XChange 3.0 (driver 3.60)
+
+Operating System:
+--------------------------------------------
+  6.1 Type    : Microsoft Windows 7 (64 bit)
+  6.2 Build # : 7600
+  6.3 Update  : 
+  6.4 Language: Chinese (Simplified)
+  6.5 Charset : 134
+
+Network:
+---------------------------------------------------------------------
+  7.1 IP Address: 172.168.000.135 - 192.168.174.001 - 192.168.001.001
+  7.2 Submask   : 255.255.000.000 - 255.255.255.000 - 255.255.255.000
+  7.3 Gateway   : 172.168.000.001 - 000.000.000.000 - 000.000.000.000
+  7.4 DNS 1     : 202.096.128.086 - 000.000.000.000 - 000.000.000.000
+  7.5 DNS 2     : 202.096.128.068 - 000.000.000.000 - 000.000.000.000
+  7.6 DHCP      : OFF             - OFF             - OFF            
+
+Call Stack Information:
+-----------------------------------------------------------------------------------
+|Address |Module        |Unit          |Class           |Procedure/Method|Line    |
+-----------------------------------------------------------------------------------
+|Running Thread: ID=7140; Priority=0; Class=; [Main]                              |
+|---------------------------------------------------------------------------------|
+|0051C5F8|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpConnect      |191[19] |
+|0051C5DA|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpConnect      |186[14] |
+|0051C558|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpConnect      |172[0]  |
+|0051C89B|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |Destroy         |279[1]  |
+|0052170F|PFtpClient.exe|FtpClient.pas |TFtpclientThread|putfile         |1633[24]|
+|0051C5F8|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpConnect      |191[19] |
+|0051C5DA|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpConnect      |186[14] |
+|0051C558|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpConnect      |172[0]  |
+|0051C14A|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpPut          |79[2]   |
+|0051C100|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpPut          |77[0]   |
+|005215EA|PFtpClient.exe|FtpClient.pas |TFtpclientThread|putfile         |1622[13]|
+|0051C62F|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |IdFTP1Work      |206[3]  |
+|0051C3A5|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpPut          |127[50] |
+|0051C100|PFtpClient.exe|UFtpClient.pas|TFtpClientMy    |FtpPut          |77[0]   |
+|005215EA|PFtpClient.exe|FtpClient.pas |TFtpclientThread|putfile         |1622[13]|
+|00522C88|PFtpClient.exe|PFtpClient.dpr|                |                |16[4]   |
+|---------------------------------------------------------------------------------|
+|                                                                                 |
+|Running Thread: ID=7080; Priority=15; Class=TFtpclientThread                     |
+|---------------------------------------------------------------------------------|
+|00521449|PFtpClient.exe|FtpClient.pas |TFtpclientThread|Execute         |1597[3] |
+|---------------------------------------------------------------------------------|
+|Calling Thread: ID=7140; Priority=0; Class=; [Main]                              |
+|---------------------------------------------------------------------------------|
+|005212D0|PFtpClient.exe|FtpClient.pas |TFtpclientThread|Create          |1569[6] |
+|00521244|PFtpClient.exe|FtpClient.pas |TFtpclientThread|Create          |1563[0] |
+|0051E8BB|PFtpClient.exe|FtpClient.pas |TFtpClientForm  |btn11Click      |692[47] |
+|00522C88|PFtpClient.exe|PFtpClient.dpr|                |                |16[4]   |
+|---------------------------------------------------------------------------------|
+|                                                                                 |
+|Running Thread: ID=6412; Priority=15; Class=TFtpclientThread                     |
+|---------------------------------------------------------------------------------|
+|00521449|PFtpClient.exe|FtpClient.pas |TFtpclientThread|Execute         |1597[3] |
+|---------------------------------------------------------------------------------|
+|Calling Thread: ID=7140; Priority=0; Class=; [Main]                              |
+|---------------------------------------------------------------------------------|
+|005212D0|PFtpClient.exe|FtpClient.pas |TFtpclientThread|Create          |1569[6] |
+|00521244|PFtpClient.exe|FtpClient.pas |TFtpclientThread|Create          |1563[0] |
+|0051E8BB|PFtpClient.exe|FtpClient.pas |TFtpClientForm  |btn11Click      |692[47] |
+|00522C88|PFtpClient.exe|PFtpClient.dpr|                |                |16[4]   |
+-----------------------------------------------------------------------------------
+
+Modules Information:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|Handle  |Name             |Description                                        |Version           |Size    |Modified           |Path                                                                                                         |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|00400000|PFtpClient.exe   |                                                   |                  |1370112 |2012-07-20 17:09:12|D:\mine\°Ù¶ÈÍøÅÌ\ÎÒµÄÎÄµµ\work\program\delphi\FtpClient                                                      |
+|02FA0000|ksfmon.dll       |KSafe Monitor                                      |3.5.1.2244        |1297312 |2012-05-18 17:29:48|C:\Program Files (x86)\KSafe                                                                                 |
+|03310000|QQWUBI.IME       |QQÎå±ÊÊäÈë·¨                                       |2.0.305.400       |2344312 |2011-11-07 17:21:18|C:\Windows\system32                                                                                          |
+|03D00000|ikutm.dll        |iKu Smart Network Module                           |3.1.0.6111        |283976  |2012-06-25 20:23:24|C:\Program Files (x86)\YouKu\common                                                                          |
+|10000000|kwsui.dll        |Kingsoft Webshield Module                          |2012.6.8.38       |556920  |2012-06-19 10:04:08|C:\Program Files (x86)\kingsoft\kingsoft antivirus                                                           |
+|6FAD0000|TSVulFW.DAT      |TSVulFW                                            |7.1.2901.201      |558496  |2012-06-28 02:49:14|C:\ProgramData\Tencent\TSVulFw                                                                               |
+|71AB0000|dwmapi.dll       |Microsoft ×ÀÃæ´°¿Ú¹ÜÀíÆ÷ API                       |6.1.7600.16385    |67072   |2009-07-14 09:15:14|C:\Windows\system32                                                                                          |
+|71AD0000|uxtheme.dll      |Microsoft UxTheme ¿â                               |6.1.7600.16385    |245760  |2009-07-14 09:11:26|C:\Windows\system32                                                                                          |
+|71B50000|MSIMG32.dll      |GDIEXT Client DLL                                  |6.1.7600.16385    |4608    |2009-07-14 09:15:46|C:\Windows\system32                                                                                          |
+|71D80000|wsock32.dll      |Windows Socket 32-Bit DLL                          |6.1.7600.16385    |15360   |2009-07-14 09:16:22|C:\Windows\system32                                                                                          |
+|71F40000|MSOXMLMF.DLL     |Microsoft Office XML MIME Filter                   |12.0.4518.1014    |44344   |2006-10-26 21:41:48|C:\Program Files (x86)\Common Files\microsoft shared\OFFICE12                                                |
+|72040000|RICHED32.DLL     |Wrapper Dll for Richedit 1.0                       |6.1.7600.16385    |8192    |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|72070000|rasman.dll       |Remote Access Connection Manager                   |6.1.7600.16385    |76800   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|72090000|RASAPI32.dll     |Remote Access API                                  |6.1.7600.16385    |325120  |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|72200000|apphelp.dll      |Ó¦ÓÃ³ÌÐò¼æÈÝÐÔ¿Í»§¶Ë¿â                             |6.1.7600.16385    |292352  |2009-07-14 09:14:54|C:\Windows\system32                                                                                          |
+|72250000|WINSTA.dll       |Winstation Library                                 |6.1.7600.16385    |156160  |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|72280000|comctl32.dll     |ÓÃ»§ÌåÑé¿Ø¼þ¿â                                     |6.10.7600.16661   |1680896 |2010-08-21 13:21:34|C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7600.16661_none_420fe3fa2b8113bd|
+|72610000|winspool.drv     |Windows ºóÌ¨´¦Àí³ÌÐòÇý¶¯³ÌÐò                       |6.1.7600.16385    |319488  |2009-07-14 09:14:10|C:\Windows\system32                                                                                          |
+|72810000|WINMM.dll        |MCI API DLL                                        |6.1.7600.16385    |194048  |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|72A10000|RpcRtRemote.dll  |Remote RPC Extension                               |6.1.7600.16385    |45568   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|72E40000|pnrpnsp.dll      |PNRP ÃüÃû¿Õ¼äÌá¹©³ÌÐò                              |6.1.7600.16385    |65024   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|72E60000|napinsp.dll      |µç×ÓÓÊ¼þÃüÃûÌî³äÌá¹©³ÌÐò                           |6.1.7600.16385    |52224   |2009-07-14 09:16:04|C:\Windows\system32                                                                                          |
+|72E70000|winrnr.dll       |LDAP RnR Provider DLL                              |6.1.7600.16385    |20992   |2009-07-14 09:16:20|C:\Windows\System32                                                                                          |
+|72E80000|DNSAPI.dll       |DNS ¿Í»§¶Ë API DLL                                 |6.1.7600.16772    |269824  |2011-03-03 13:29:24|C:\Windows\system32                                                                                          |
+|72ED0000|NLAapi.dll       |Network Location Awareness 2                       |6.1.7600.16385    |51712   |2009-07-14 09:16:04|C:\Windows\system32                                                                                          |
+|72EE0000|wshtcpip.dll     |Winsock2 °ïÖú³ÌÐò DLL (TL/IPv4)                    |6.1.7600.16385    |9216    |2009-07-14 09:16:22|C:\Windows\System32                                                                                          |
+|72EF0000|ntmarta.dll      |Windows NT MARTA Ìá¹©³ÌÐò                          |6.1.7600.16385    |121856  |2009-07-14 09:16:12|C:\Windows\system32                                                                                          |
+|72F20000|mswsock.dll      |Microsoft Windows Sockets 2.0 ·þÎñÌá¹©³ÌÐò         |6.1.7600.16385    |232448  |2009-07-14 09:15:52|C:\Windows\System32                                                                                          |
+|73180000|WindowsCodecs.dll|Microsoft Windows Codecs Library                   |6.1.7600.16385    |1011200 |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|73280000|RICHED20.dll     |Rich Text Edit Control, v3.1                       |5.31.23.1229      |473600  |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|742A0000|msxml3.dll       |MSXML 3.0 SP11                                     |8.110.7600.17036  |1236992 |2012-06-06 13:09:48|C:\Windows\System32                                                                                          |
+|74510000|rsaenh.dll       |Microsoft Enhanced Cryptographic Provider          |6.1.7600.16385    |242936  |2009-07-14 09:17:56|C:\Windows\system32                                                                                          |
+|74550000|CRYPTSP.dll      |Cryptographic Service Provider API                 |6.1.7600.16385    |78848   |2009-07-14 09:15:08|C:\Windows\system32                                                                                          |
+|747C0000|WINNSI.DLL       |Network Store Information RPC interface            |6.1.7600.16385    |16896   |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|747D0000|iphlpapi.dll     |IP Helper API                                      |6.1.7600.16385    |103936  |2009-07-14 09:15:34|C:\Windows\system32                                                                                          |
+|747F0000|wkscli.dll       |Workstation Service Client DLL                     |6.1.7600.16385    |47104   |2009-07-14 09:16:20|C:\Windows\system32                                                                                          |
+|74800000|srvcli.dll       |Server Service Client DLL                          |6.1.7600.16385    |90112   |2009-07-14 09:16:16|C:\Windows\system32                                                                                          |
+|74820000|netutils.dll     |Net Win32 API Helpers DLL                          |6.1.7600.16385    |22016   |2009-07-14 09:16:04|C:\Windows\system32                                                                                          |
+|74830000|NETAPI32.dll     |Net Win32 API DLL                                  |6.1.7600.16385    |56832   |2009-07-14 09:16:04|C:\Windows\system32                                                                                          |
+|748E0000|WTSAPI32.dll     |Windows Remote Desktop Session Host Server SDK APIs|6.1.7600.16385    |39936   |2009-07-14 09:16:22|C:\Windows\system32                                                                                          |
+|748F0000|profapi.dll      |User Profile Basic API                             |6.1.7600.16385    |31744   |2009-07-14 09:16:14|C:\Windows\system32                                                                                          |
+|74920000|MSVCR80.dll      |Microsoft? C Runtime Library                       |8.0.50727.4927    |632656  |2009-06-11 05:23:12|C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5               |
+|749C0000|MSVCP80.dll      |Microsoft? C++ Runtime Library                     |8.0.50727.4927    |554816  |2009-06-11 05:23:12|C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5               |
+|74A50000|version.dll      |Version Checking and File Installation Libraries   |6.1.7600.16385    |21504   |2009-07-14 09:16:18|C:\Windows\system32                                                                                          |
+|74B20000|CRYPTBASE.dll    |Base cryptographic API DLL                         |6.1.7600.16385    |36864   |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                          |
+|74B30000|SspiCli.dll      |Security Support Provider Interface                |6.1.7600.17035    |96768   |2012-06-02 12:42:52|C:\Windows\syswow64                                                                                          |
+|74B90000|oleaut32.dll     |                                                   |6.1.7600.16872    |571904  |2011-08-27 12:43:08|C:\Windows\syswow64                                                                                          |
+|74C20000|kernel32.dll     |Windows NT »ù±¾ API ¿Í»§¶Ë DLL                     |6.1.7600.16850    |1048576 |2011-07-16 12:30:28|C:\Windows\syswow64                                                                                          |
+|74D20000|GDI32.dll        |GDI Client DLL                                     |6.1.7600.16385    |310784  |2009-07-14 09:11:22|C:\Windows\syswow64                                                                                          |
+|74DF0000|NSI.dll          |NSI User-mode interface DLL                        |6.1.7600.16385    |8704    |2009-07-14 09:16:12|C:\Windows\syswow64                                                                                          |
+|74E00000|CRYPT32.dll      |¼ÓÃÜ API32                                         |6.1.7600.16385    |1151488 |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                          |
+|74F20000|USER32.dll       |¶àÓÃ»§ Windows ÓÃ»§ API ¿Í»§¶Ë DLL                 |6.1.7600.16385    |833024  |2009-07-14 09:11:26|C:\Windows\syswow64                                                                                          |
+|75020000|MSCTF.dll        |MSCTF ·þÎñÆ÷ DLL                                   |6.1.7600.16385    |828928  |2009-07-14 09:15:44|C:\Windows\syswow64                                                                                          |
+|750F0000|imagehlp.dll     |Windows NT Image Helper                            |6.1.7600.16970    |158720  |2012-03-01 13:45:06|C:\Windows\syswow64                                                                                          |
+|75120000|RPCRT4.dll       |Ô¶³Ì¹ý³Ìµ÷ÓÃÔËÐÐÊ±                                 |6.1.7600.16385    |662528  |2009-07-14 09:11:24|C:\Windows\syswow64                                                                                          |
+|75240000|ole32.dll        |ÓÃÓÚ Windows µÄ Microsoft OLE                      |6.1.7600.16624    |1413632 |2010-06-29 13:02:04|C:\Windows\syswow64                                                                                          |
+|753A0000|IMM32.DLL        |Multi-User Windows IMM32 API Client DLL            |6.1.7600.16385    |119808  |2009-07-14 09:11:22|C:\Windows\system32                                                                                          |
+|75400000|PSAPI.DLL        |Process Status Helper                              |6.1.7600.16385    |6144    |2009-07-14 09:16:14|C:\Windows\syswow64                                                                                          |
+|755B0000|sechost.dll      |Host for SCM/SDDL/LSA Lookup APIs                  |6.1.7600.16385    |92160   |2009-07-14 09:16:14|C:\Windows\SysWOW64                                                                                          |
+|755D0000|MSASN1.dll       |ASN.1 Runtime APIs                                 |6.1.7600.16415    |34816   |2009-08-29 14:57:32|C:\Windows\syswow64                                                                                          |
+|755E0000|ADVAPI32.dll     |¸ß¼¶ Windows 32 »ù±¾ API                           |6.1.7600.16385    |640000  |2009-07-14 09:14:54|C:\Windows\syswow64                                                                                          |
+|75680000|SHLWAPI.dll      |Íâ¿Ç¼òÒ×ÊµÓÃ¹¤¾ß¿â                                 |6.1.7600.16385    |350208  |2009-07-14 09:16:16|C:\Windows\syswow64                                                                                          |
+|756E0000|shell32.dll      |Windows Íâ¿Ç¹«ÓÃ DLL                               |6.1.7600.17038    |12868608|2012-06-09 12:46:58|C:\Windows\syswow64                                                                                          |
+|76330000|urlmon.dll       |Win32 µÄ OLE32 À©Õ¹                                |8.0.7600.17006    |1230336 |2012-04-20 13:07:28|C:\Windows\syswow64                                                                                          |
+|76470000|WS2_32.dll       |Windows Socket 2.0 32 Î» DLL                       |6.1.7600.16385    |206336  |2009-07-14 09:16:22|C:\Windows\syswow64                                                                                          |
+|764B0000|WININET.dll      |Win32 µÄ Internet À©Õ¹                             |8.0.7600.17024    |981504  |2012-05-15 11:08:50|C:\Windows\syswow64                                                                                          |
+|765B0000|USP10.dll        |Uniscribe Unicode script processor                 |1.626.7600.16385  |627200  |2009-07-14 09:16:18|C:\Windows\syswow64                                                                                          |
+|76670000|KERNELBASE.dll   |Windows NT »ù±¾ API ¿Í»§¶Ë DLL                     |6.1.7600.16850    |272384  |2011-07-16 12:30:28|C:\Windows\syswow64                                                                                          |
+|767B0000|CLBCatQ.DLL      |COM+ Configuration Catalog                         |2001.12.8530.16385|522240  |2009-07-14 09:15:04|C:\Windows\syswow64                                                                                          |
+|76840000|iertutil.dll     |Run time utility for Internet Explorer             |8.0.7600.17006    |2072576 |2012-04-20 13:05:36|C:\Windows\syswow64                                                                                          |
+|76A40000|comdlg32.dll     |Common Dialogs DLL                                 |6.1.7600.16385    |486912  |2009-07-14 09:15:08|C:\Windows\syswow64                                                                                          |
+|76AC0000|msvcrt.dll       |Windows NT CRT DLL                                 |7.0.7600.16930    |690688  |2011-12-16 15:59:18|C:\Windows\syswow64                                                                                          |
+|76B70000|WLDAP32.dll      |Win32 LDAP API DLL                                 |6.1.7600.16385    |268800  |2009-07-14 09:16:20|C:\Windows\syswow64                                                                                          |
+|76F90000|LPK.dll          |Language Pack                                      |6.1.7600.16385    |25600   |2009-07-14 09:11:24|C:\Windows\syswow64                                                                                          |
+|76FC0000|ntdll.dll        |NT ²ã DLL                                          |6.1.7600.16915    |1292592 |2011-11-17 13:41:40|C:\Windows\SysWOW64                                                                                          |
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processes Information:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|ID  |Name                      |Description                          |Version        |Memory|Priority    |Threads|Path                                                                                                             |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|0   |[System Process]          |                                     |               |0     |            |2      |                                                                                                                 |
+|4   |System                    |                                     |               |0     |Normal      |115    |                                                                                                                 |
+|212 |qqbrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |7      |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|280 |smss.exe                  |                                     |               |0     |Above-Normal|2      |                                                                                                                 |
+|292 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |33     |                                                                                                                 |
+|376 |csrss.exe                 |                                     |               |0     |High        |9      |                                                                                                                 |
+|432 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |13     |                                                                                                                 |
+|436 |csrss.exe                 |                                     |               |0     |High        |10     |                                                                                                                 |
+|444 |wininit.exe               |Windows Æô¶¯Ó¦ÓÃ³ÌÐò                 |6.1.7600.16385 |0     |High        |3      |                                                                                                                 |
+|492 |winlogon.exe              |                                     |               |0     |High        |3      |                                                                                                                 |
+|528 |dwm.exe                   |                                     |               |0     |High        |5      |                                                                                                                 |
+|540 |services.exe              |                                     |               |0     |Normal      |9      |                                                                                                                 |
+|548 |lsass.exe                 |                                     |               |0     |Normal      |9      |                                                                                                                 |
+|560 |lsm.exe                   |                                     |               |0     |Normal      |10     |                                                                                                                 |
+|660 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |11     |                                                                                                                 |
+|844 |QQPCRTP.exe               |QQµçÄÔ¹Ü¼ÒÊµÊ±·À»¤·þÎñ               |6.8.2351.202   |0     |Normal      |39     |                                                                                                                 |
+|868 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |8      |                                                                                                                 |
+|968 |svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |19     |                                                                                                                 |
+|1020|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |13     |                                                                                                                 |
+|1132|QQPCTray.exe              |QQµçÄÔ¹Ü¼Ò-ÍÐÅÌ³ÌÐò                  |6.8.2369.202   |0     |Normal      |39     |d:\Program Files (x86)\Tencent\QQPCMgr\6.8.2385.401                                                              |
+|1140|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |15     |                                                                                                                 |
+|1216|kxescore.exe              |                                     |               |0     |Normal      |73     |                                                                                                                 |
+|1276|KSafeSvc.exe              |                                     |               |0     |Normal      |48     |                                                                                                                 |
+|1284|mysqld-nt.exe             |                                     |               |0     |Normal      |15     |                                                                                                                 |
+|1844|spoolsv.exe               |                                     |               |0     |Normal      |12     |                                                                                                                 |
+|1872|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |19     |                                                                                                                 |
+|1956|mengchang_jk.exe          |ÃÎ³©µçÄÔÄÖÖÓ¼Æ»®¼ÆÊ±³ÌÐò             |6.4.9.0        |0     |Normal      |6      |C:\Program Files (x86)\mengchang                                                                                 |
+|2080|QQBrowserUpdateService.exe|                                     |               |0     |Normal      |7      |                                                                                                                 |
+|2116|tenpaycert.exe            |                                     |               |0     |Normal      |6      |                                                                                                                 |
+|2152|qqbrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |30     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|2296|bds.exe                   |Borland? Developer Studio for Windows|10.0.2151.25345|0     |Normal      |15     |C:\Program Files (x86)\Borland\BDS\4.0\Bin                                                                       |
+|2300|explorer.exe              |Windows ×ÊÔ´¹ÜÀíÆ÷                   |6.1.7600.16450 |0     |Normal      |35     |                                                                                                                 |
+|2456|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |5      |                                                                                                                 |
+|2512|TSVNCache.exe             |TortoiseSVN status cache             |1.6.7.18415    |0     |Normal      |13     |                                                                                                                 |
+|2732|qqbrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |5      |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|2832|Serv-U-Tray.exe           |                                     |               |0     |Normal      |4      |                                                                                                                 |
+|2908|taskhost.exe              |                                     |               |0     |Normal      |9      |                                                                                                                 |
+|3060|qqbrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |27     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|3176|KSafeTray.exe             |½ðÉ½ÎÀÊ¿ÊµÊ±±£»¤Ä£¿é                 |3.5.1.2244     |0     |Normal      |27     |C:\Program Files (x86)\KSafe                                                                                     |
+|3184|kxetray.exe               |½ðÉ½¶¾°Ô2012                         |2012.7.9.190   |0     |Normal      |40     |C:\Program Files (x86)\kingsoft\kingsoft antivirus                                                               |
+|3192|scheduler.exe             |Teleport Scheduler                   |1.50.0.0       |0     |Normal      |1      |C:\Program Files (x86)\Teleport Pro                                                                              |
+|3356|TXPlatform.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |4      |d:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|3480|QQExternal.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |9      |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|3692|SearchIndexer.exe         |Microsoft Windows Search Ë÷ÒýÆ÷      |7.0.7600.16385 |0     |Normal      |13     |                                                                                                                 |
+|3756|QQ.exe                    |QQ2011                               |1.70.2432.0    |0     |Normal      |22     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4108|QQExternal.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |6      |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4296|QQPCWebShield.exe         |QQµçÄÔ¹Ü¼ÒÍøÒ³·À»ðÇ½½ø³Ì             |6.8.2306.201   |0     |Normal      |32     |d:\Program Files (x86)\Tencent\QQPCMgr\6.8.2385.401                                                              |
+|4640|QQ.exe                    |QQ2011                               |1.70.2432.0    |0     |Normal      |22     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|4660|taskmgr.exe               |Windows ÈÎÎñ¹ÜÀíÆ÷                   |6.1.7600.16385 |0     |High        |7      |                                                                                                                 |
+|4852|QQBrowserExtHost.exe      |QQBrowserExtHost                     |6.14.14517.201 |0     |Normal      |41     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|4856|QQ.exe                    |QQ2011                               |1.70.2432.0    |0     |Normal      |19     |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|5104|iexplore.exe              |                                     |               |0     |Normal      |11     |                                                                                                                 |
+|5148|QQExternal.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |6      |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|5176|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |13     |                                                                                                                 |
+|5192|PFtpServer.exe            |                                     |               |0     |Normal      |9      |D:\mine\°Ù¶ÈÍøÅÌ\ÎÒµÄÎÄµµ\work\program\521g\tcgp\trunk\ZhanJiangII\tools\Build\ftp\server                        |
+|5280|qqbrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |26     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|5444|iexplore.exe              |                                     |               |0     |Normal      |32     |                                                                                                                 |
+|5484|qqbrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |32     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|5708|qqbrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |7      |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|5740|svchost.exe               |Windows ·þÎñÖ÷½ø³Ì                   |6.1.7600.16385 |0     |Normal      |10     |                                                                                                                 |
+|5812|EMEDITOR.EXE              |EmEditor                             |11.0.5.0       |0     |Normal      |6      |C:\Program Files (x86)\EmEditor                                                                                  |
+|5864|qqbrowser.exe             |QQBrowser                            |6.14.14517.201 |0     |Normal      |33     |c:\program files (x86)\tencent\qqbrowser                                                                         |
+|5916|QBDownloader.exe          |ÏÂÔØ¹ÜÀí-QQä¯ÀÀÆ÷                    |1.0.0.1        |0     |Normal      |4      |C:\program files (x86)\tencent\qqbrowser\6.14.14517.201\extensions\{7EDBEBE6-565F-4aa2-93A1-AD250445A5B6}\1.2.3.4|
+|6060|QQExternal.exe            |QQ2011                               |1.70.2410.0    |0     |Normal      |8      |D:\Program Files (x86)\Tencent\QQ\Bin                                                                            |
+|6320|PFtpClient.exe            |                                     |               |0     |Normal      |11     |D:\mine\°Ù¶ÈÍøÅÌ\ÎÒµÄÎÄµµ\work\program\delphi\FtpClient                                                          |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assembler Information:
+--------------------------------------------------------------
+; Classes.TThread.Synchronize (Line=0 - Offset=0)
+; -----------------------------------------------
+00427201  ret
+00427202  jmp     System._HandleFinally
+00427207  jmp     Classes.TThread.Synchronize
+00427209  cmp     byte ptr [ebp-$05], $00
+0042720D  jnz     Classes.TThread.Synchronize
+0042720F  mov     eax, [ebp-$04]
+00427212  cmp     dword ptr [eax+$10], +$00
+00427216  jz      Classes.TThread.Synchronize
+00427218  mov     eax, [ebp-$04]
+0042721B  mov     eax, [eax+$10]
+0042721E  call    System._RaiseExcept          ; <-- EXCEPTION
+00427223  pop     ebx
+00427224  mov     esp, ebp
+00427226  pop     ebp
+00427227  ret
+
+Registers:
+-----------------------------
+EAX: 0206E780   EDI: 0A92FF40
+EBX: 00000001   ESI: 0207C4E9
+ECX: A59A0000   ESP: 0A92FEB8
+EDX: 00427223   EIP: 0042721E
+
+Stack:               Memory Dump:
+------------------   ---------------------------------------------------------------------------
+0A92FEB8: 01FED940   0042721E: E8 0D D8 FD FF 5B 8B E5 5D C3 55 8B EC 89 40 20  .....[..].U...@ 
+0A92FEBC: 01FED960   0042722E: 33 D2 89 50 30 8B 55 08 89 50 28 8B 55 0C 89 50  3..P0.U..P(.U..P
+0A92FEC0: 0A92FE00   0042723E: 2C 8D 50 20 33 C9 8B 00 E8 41 FE FF FF 5D C2 08  ,.P 3....A...]..
+0A92FEC4: 000004B0   0042724E: 00 90 55 8B EC 83 C4 E8 85 D2 74 0F FF 75 0C FF  ..U.......t..u..
+0A92FEC8: 0A92FEBC   0042725E: 75 08 8B C2 E8 C1 FF FF FF EB 25 33 C0 89 45 E8  u.........%3..E.
+0A92FECC: 0000B00C   0042726E: 33 C0 89 45 F8 8B 45 08 89 45 F0 8B 45 0C 89 45  3..E..E..E..E..E
+0A92FED0: 01FED960   0042727E: F4 8D 55 E8 33 C9 A1 F0 BF 41 00 E8 FE FD FF FF  ..U.3....A......
+0A92FED4: 0A92FEDC   0042728E: 8B E5 5D C2 08 00 55 8B EC 83 C4 F8 53 56 57 89  ..]...U.....SVW.
+0A92FED8: 0042724B   0042729E: 45 FC 8B 45 FC 0F B6 40 0E 88 45 FB 33 C0 55 68  E..E...@..E.3.Uh
+0A92FEDC: 0A92FF44   004272AE: E2 72 42 00 64 FF 30 64 89 20 8B 45 FC C6 40 0E  .rB.d.0d. .E..@.
+0A92FEE0: 0052144E   004272BE: 01 8B 45 FC 8B 40 04 50 E8 95 07 FE FF 85 C0 0F  ..E..@.P........
+0A92FEE4: 00521450   004272CE: 9D C2 8B 45 FC E8 4C FC FF FF 33 C0 5A 59 59 64  ...E..L...3.ZYYd
+0A92FEE8: 01FED940   004272DE: 89 10 EB 19 E9 F1 D2 FD FF 8B 45 FC 0F B6 55 FB  ..........E...U.
+0A92FEEC: 00000001   004272EE: 88 50 0E E8 62 D7 FD FF E8 B1 D7 FD FF 5F 5E 5B  .P..b........_^[
+0A92FEF0: 00479591   004272FE: 59 59 5D C3 8B C0 53 56 8B D8 8B 43 04 50 E8 DF  YY]...SV...C.P..
+0A92FEF4: 0A92FF4C   0042730E: 06 FE FF 8B F0 85 F6 0F 9D C2 8B C3 E8 05 FC FF  ................
+
+
+

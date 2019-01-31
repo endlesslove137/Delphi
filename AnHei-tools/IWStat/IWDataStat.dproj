@@ -1,0 +1,644 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{CF488EEE-871C-4325-9299-AD0781CCD7AB}</ProjectGuid>
+			<ProjectVersion>12.2</ProjectVersion>
+			<MainSource>IWDataStat.dpr</MainSource>
+			<Base>True</Base>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<Platform>Win32</Platform>
+			<AppType>Console</AppType>
+			<FrameworkType>VCL</FrameworkType>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UsePackage>rtl;vcl;vclx;vclimg;dbrtl;adortl;vcldb;vclactnband;vcldbx;bdertl;DataSnapIndy10ServerTransport;DataSnapClient;dbexpress;xmlrtl;DbxClientDriver;DbxCommonDriver;dbxcds;vclie;inet;IndyProtocols;inetdbbde;inetdbxpress;DataSnapProviderClient;inetdb;dsnap;IndySystem;IndyCore;DataSnapServer;dsnapcon;DBXInterBaseDriver;DBXMySQLDriver;DBXFirebirdDriver;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;vclib;ibxpress;webdsnap;vclribbon;soaprtl;VclSmp;svnui;svn;vcltouch;websnap;AzureCloud;advchartd2010;tmsd2011;tmsexd2011;tmswizd2011;tmsxlsd2011;TeeUI;TeeDB;Tee;HandW;EhLib140;EhLibDataDrivers140;fsDB15;fs15;fsIBX15;fsTee15;frx15;frxADO15;frxBDE15;frxcs15;frxDB15;frxDBX15;frxe15;frxIBX15;frxTee15;fsADO15;fsBDE15;intrawebdb_110_150;Intraweb_110_150;iw11tmsxlsd2011;iw11tmsd2011;iw11tmsgridd2011;iw11tmsgridded2011;iw11tmschartd2011;dacvcl150;dac150;ibprovider150;unidac150;myprovider150;oraprovider150;pgprovider150;unidacvcl150;accessprovider150;odbcprovider150;adsprovider150;aseprovider150;db2provider150</DCC_UsePackage>
+			<DCC_ImageBase>00400000</DCC_ImageBase>
+			<DCC_DcuOutput>.\$(Config)\$(Platform)</DCC_DcuOutput>
+			<DCC_UnitAlias>WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;$(DCC_UnitAlias)</DCC_UnitAlias>
+			<DCC_ExeOutput>.\$(Config)\$(Platform)</DCC_ExeOutput>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_ExeOutput>..\..\..\..\..\idgp\AnHei\!SC\tools\IWStat</DCC_ExeOutput>
+			<DCC_DcuOutput>D:\work\output\dcu</DCC_DcuOutput>
+			<DCC_DcpOutput>D:\work\output\dcu</DCC_DcpOutput>
+			<DCC_Define>Debug;$(DCC_Define)</DCC_Define>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_ExeOutput>..\..\..\..\..\idgp\AnHei\!SC\tools\IWStat</DCC_ExeOutput>
+			<DCC_DcuOutput>D:\work\output\dcu</DCC_DcuOutput>
+			<DCC_DcpOutput>D:\work\output\dcu</DCC_DcpOutput>
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="IWDataStat.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="UnitfrmUserLogin.pas">
+				<Form>IWfrmUserLogin</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="ServerController.pas">
+				<Form>IWServerController</Form>
+				<DesignClass>TIWServerControllerBase</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UserSessionUnit.pas">
+				<Form>IWUserSession</Form>
+				<DesignClass>TIWUserSessionBase</DesignClass>
+			</DCCReference>
+			<DCCReference Include="GSProto.pas"/>
+			<DCCReference Include="GSManageServer.pas"/>
+			<DCCReference Include="EDcode.pas"/>
+			<DCCReference Include="ConfigINI.pas"/>
+			<DCCReference Include="ServerINI.pas"/>
+			<DCCReference Include="..\common\SQLFileDecrypt.pas"/>
+			<DCCReference Include="UnitfrmBasic.pas">
+				<Form>IWFormBasic</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitIWfrmMain.pas">
+				<Form>IWfrmMain</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmOnlineCount.pas">
+				<Form>IWfrmOnlineCount</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmRole.pas">
+				<Form>IWfrmRole</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmRoleLevel.pas">
+				<Form>IWfrmRoleLevel</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmPayRoleLevel.pas">
+				<Form>IWfrmPayRoleLevel</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmLevelRole.pas">
+				<Form>IWfrmLevelRole</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmLogin.pas">
+				<Form>IWfrmLogin</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitIWfrmUserConsume.pas">
+				<Form>IWfrmUserConsume</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmPayUser.pas">
+				<Form>IWfrmPayUser</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmPayAllUser.pas">
+				<Form>IWfrmPayAllUser</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitIWfrmPay.pas">
+				<Form>IWfrmPay</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitIWfrmConsume.pas">
+				<Form>IWfrmConsume</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitIWfrmUserConsumeOrder.pas">
+				<Form>IWfrmUserConsumeOrder</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitIWfrmPayOrder.pas">
+				<Form>IWfrmPayOrder</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmWebGrid.pas">
+				<Form>IWfrmWebGrid</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmLevelRank.pas">
+				<Form>IWfrmLevelRank</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmMoneyRank.pas">
+				<Form>IWfrmMoneyRank</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmGoldRank.pas">
+				<Form>IWfrmGoldRank</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitIWfrmHumLog.pas">
+				<Form>IWfrmHumLog</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmNoticeGS.pas">
+				<Form>IWfrmNoticeGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmLoginLog.pas">
+				<Form>IWfrmLoginLog</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmItemTrace.pas">
+				<Form>IWfrmItemTrace</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmItems.pas">
+				<Form>IWfrmItems</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmAccountLoss.pas">
+				<Form>IWfrmAccountLoss</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmRoleConsume.pas">
+				<Form>IWfrmRoleConsume</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmRoleInfo.pas">
+				<Form>IWfrmRoleInfo</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmActivityItem.pas">
+				<Form>IWfrmActivityItem</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmReloadNPC.pas">
+				<Form>IWfrmReloadNPC</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmRoleGS.pas">
+				<Form>IWfrmRoleGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmFunctionGS.pas">
+				<Form>IWfrmFunctionGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmDelayUphole.pas">
+				<Form>IWfrmDelayUphole</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmExpRateGS.pas">
+				<Form>IWfrmExpRateGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmShopGS.pas">
+				<Form>IWfrmShopGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmDataEngine.pas">
+				<Form>IWfrmDataEngine</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmActivityItemGS.pas">
+				<Form>IWfrmActivityItemGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmBindGoldGS.pas">
+				<Form>IWfrmBindGoldGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmAccountType.pas">
+				<Form>IWfrmAccountType</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmRoleStayTime.pas">
+				<Form>IWfrmRoleStayTime</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmCreateAccount.pas">
+				<Form>IWfrmCreateAccount</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmShop.pas">
+				<Form>IWfrmShop</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmShopType.pas">
+				<Form>IWfrmShopType</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmCurOnline.pas">
+				<Form>IWfrmCurOnline</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmGlobalOnline.pas">
+				<Form>IWfrmGlobalOnline</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmGlobalPay.pas">
+				<Form>IWfrmGlobalPay</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmUserCount.pas">
+				<Form>IWfrmUserCount</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmExtractGold.pas">
+				<Form>IWfrmExtractGold</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmPayDetail.pas">
+				<Form>IWfrmPayDetail</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmAcross.pas">
+				<Form>IWfrmAcross</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmSysExceptLog.pas">
+				<Form>IWfrmSysExceptLog</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmViewState.pas">
+				<Form>IWfrmViewState</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitSetUserPop.pas">
+				<Form>IWfrmSetUserPop</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmBasicConfig.pas">
+				<Form>IWfrmBasicConfig</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmAcrossRank.pas">
+				<Form>IWfrmAcrossRank</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmAvgOnline.pas">
+				<Form>IWfrmAvgOnline</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmGlobalAccount.pas">
+				<Form>IWfrmGlobalAccount</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmAccountRate.pas">
+				<Form>IWfrmAccountRate</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmBonusDetail.pas">
+				<Form>IWfrmBonusDetail</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmBonus.pas">
+				<Form>IWfrmBonus</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmConsumeYXB.pas">
+				<Form>IWfrmConsumeYXB</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmBonusGS.pas">
+				<Form>IWfrmBonusGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmSex.pas">
+				<Form>IWfrmSex</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmDataExport.pas">
+				<Form>IWfrmDataExport</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmLoginStatus.pas">
+				<Form>IWfrmLoginStatus</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmRoleActivityItemGS.pas">
+				<Form>IWfrmRoleActivityItemGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmOperateLog.pas">
+				<Form>IWfrmOperateLog</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmDayLoss.pas">
+				<Form>IWfrmDayLoss</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmOnlineRegister.pas">
+				<Form>IWfrmOnlineRegister</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmCountry.pas">
+				<Form>IWfrmCountry</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmBindConsume.pas">
+				<Form>IWfrmBindConsume</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmZYRank.pas">
+				<Form>IWfrmZYRank</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmBindGoldRank.pas">
+				<Form>IWfrmBindGold</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmReputeRank.pas">
+				<Form>IWfrmReputeRank</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmTaskLoss.pas">
+				<Form>IWfrmTaskLoss</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmReputeShopOrder.pas">
+				<Form>IWfrmReputeShopOrder</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmBugInfo.pas">
+				<Form>IWfrmBugInfo</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmAddBugInfo.pas">
+				<Form>IWfrmAddBugInfo</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmViewBugInfo.pas">
+				<Form>IWfrmViewBugInfo</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmOverview.pas">
+				<Form>IWfrmOverview</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="AES.pas"/>
+			<DCCReference Include="md5.pas"/>
+			<DCCReference Include="UnitfrmZYCount.pas">
+				<Form>IWfrmZYCount</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmSeedGold.pas">
+				<Form>IWfrmSeedGold</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmDmkjGold.pas">
+				<Form>IWfrmDmkjGold</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmOpenModuleGS.pas">
+				<Form>IWfrmOpenModuleGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmInsiderAccount.pas">
+				<Form>IWfrmInsiderAccount</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitFlashPlayerVersion.pas">
+				<Form>IWfrmFlashPlayerVersion</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitARPU.pas">
+				<Form>IWfrmARPU</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uDataDispose.pas"/>
+			<DCCReference Include="UnitfrmStockItem.pas">
+				<Form>IWfrmStockItem</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmSurplusMoney.pas">
+				<Form>IWfrmSurplusMoney</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmOnlineAndPay.pas">
+				<Form>IWfrmOnlineAndPay</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmGameFeedback.pas">
+				<Form>IWfrmGameFeedback</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmGameEngineList.pas">
+				<Form>IWfrmGameEngineList</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmGMGS.pas">
+				<Form>IWfrmGMGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Share.pas"/>
+			<DCCReference Include="Newpas\UnitfrmTreasureHuntTotal.pas">
+				<Form>IWfrmTreasureHuntTotal</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmFinCurrencyTotal.pas">
+				<Form>IWfrmFinCurrencyTotal</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmHonourvalTotal.pas">
+				<Form>IWfrmHonourvalTotal</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmStallTrack.pas">
+				<Form>IWfrmStallTrack</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmMonDieTotal.pas">
+				<Form>IWfrmMonDieTotal</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmHumDieLevel.pas">
+				<Form>IWfrmHumDieLevel</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmHumMapOnline.pas">
+				<Form>IWfrmHumMapOnline</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmCopyTrack.pas">
+				<Form>IWfrmCopyTrack</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmHumdieMap.pas">
+				<Form>IWfrmHumdieMap</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmFirstConsume.pas">
+				<Form>IWfrmFirstConsume</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmConsumeLevel.pas">
+				<Form>IWfrmConsumeLevel</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmFirstExtrYb.pas">
+				<Form>IWfrmFirstExtrYb</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmHunShiInfo.pas">
+				<Form>IWfrmHunShiInfo</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmHumDropItems.pas">
+				<Form>IWfrmHumDropItems</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmFirstExtrYbCount.pas">
+				<Form>IWfrmFirstExtrYbCount</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmLoginModeTotal.pas">
+				<Form>IWfrmLoginModeTotal</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmLoginAgain.pas">
+				<Form>IWfrmLoginAgain</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmMonKillhum.pas">
+				<Form>IWfrmMonKillhum</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmMonStrength.pas">
+				<Form>IWfrmMonStrength</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmIntegralTotal.pas">
+				<Form>IWfrmIntegralTotal</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmHeroInfo.pas">
+				<Form>IWfrmHeroInfo</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitEvaluate.pas">
+				<Form>EvaluateFrm</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmRelati.pas">
+				<Form>IWfrmRelati</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmCompenGS.pas">
+				<Form>IWfrmCompenGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmAbuseGS.pas">
+				<Form>IWfrmAbuseGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmDropReteGS.pas">
+				<Form>IWfrmDropReteGS</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmS1Engine.pas">
+				<Form>IWfrmS1Engine</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmGuildList.pas">
+				<Form>IWfrmGuildList</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="UnitfrmAllOnlineAndPay.pas">
+				<Form>IWfrmAllOnlineAndPay</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmItemsTotal.pas">
+				<Form>IWfrmItemsTotal</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmIllegalInfo.pas">
+				<Form>IWfrmIllegalInfo</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmGlobalUserYuanbao.pas">
+				<Form>IWfrmGlobalUserYuanbao</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="Newpas\UnitfrmVaseries.pas">
+				<Form>IWfrmVaseries</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="AIWRobot.pas"/>
+			<DCCReference Include="Newpas\UnitfrmIWStatList.pas">
+				<Form>IWfrmIWStatList</Form>
+				<DesignClass>TIWAppForm</DesignClass>
+			</DCCReference>
+			<DCCReference Include="IWLang.pas"/>
+			<DCCReference Include="ZGSManageServer.pas"/>
+			<DCCReference Include="..\common\ComCBPRead_TLB.pas"/>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\8.0\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\8.0\UserTools.proj"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">3</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">82</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">2052</VersionInfo>
+						<VersionInfo Name="CodePage">936</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">3.0.0.82</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dcloffice2k150.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dclofficexp150.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+					<Source>
+						<Source Name="MainSource">IWDataStat.dpr</Source>
+					</Source>
+				</Delphi.Personality>
+				<Platforms>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+	</Project>

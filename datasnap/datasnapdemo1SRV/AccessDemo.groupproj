@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A4EE8498-6518-4F02-94DB-1740A1ABF9D2}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AccessServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\datasnapdemo1CLI\AccessClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AccessServer">
+        <MSBuild Projects="AccessServer.dproj"/>
+    </Target>
+    <Target Name="AccessServer:Clean">
+        <MSBuild Projects="AccessServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AccessServer:Make">
+        <MSBuild Projects="AccessServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AccessClient">
+        <MSBuild Projects="..\datasnapdemo1CLI\AccessClient.dproj"/>
+    </Target>
+    <Target Name="AccessClient:Clean">
+        <MSBuild Projects="..\datasnapdemo1CLI\AccessClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AccessClient:Make">
+        <MSBuild Projects="..\datasnapdemo1CLI\AccessClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AccessServer;AccessClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AccessServer:Clean;AccessClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AccessServer:Make;AccessClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

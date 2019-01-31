@@ -1,0 +1,142 @@
+
+;Deutsche Übersetzung von Dirk Viehöver
+;*************************************
+;Main Form
+;Top frame
+MainForm.lblCompressor.Caption=Win32 EXE, DLL Packer
+MainForm.lblInsCap.Caption=UPX Packer:
+MainForm.lblOutCap.Caption=UPX Shell:
+
+;Open File tab
+MainForm.tbsOpen.Caption=Dateien
+MainForm.btnOpen.Caption=Öffnen
+MainForm.lblHistory.Caption=History Liste
+MainForm.pnlFileInfo.Caption=Datei Informationen
+MainForm.lblFNameCap.Caption=Datei Name
+MainForm.lblFName.Caption=-N/A-
+MainForm.lblFSizeCap.Caption=Dateigrösse (Original)
+MainForm.lblFSize.Caption=-N/A-
+MainForm.lblCSizeCap.Caption=Dateigrösse (Gepackt)
+MainForm.lblCSize.Caption=-N/A-
+MainForm.lblRatioCap.Caption=Entspricht vom Original
+MainForm.lblRatio.Caption=-N/A-
+MainForm.mnuHistory.Caption=Liste löschen
+
+;Compress tab
+MainForm.tbsCompress.Caption=Packen
+MainForm.btnGo.Caption=Starten!
+MainForm.chkDecomp.Caption=Entpacken
+MainForm.btnRun.Caption=Run
+MainForm.lblProgress.Caption=Komprimierungs Fortschritt
+MainForm.lblProgressSize.Caption=Gepackte Dateigrösse
+
+;Options tab
+MainForm.tbsOptions.Caption=Optionen
+MainForm.chkBackup.Caption=Erzeuge BACKUP Kopie
+MainForm.chkAutoCompress.Caption=Automatisch Packen nach dem Laden
+MainForm.chkExitDone.Caption=Programm nach Aktion beenden
+MainForm.chkTest.Caption=Datei nach dem Packen testen
+MainForm.btnAdvanced.Caption=Erweitert
+MainForm.lblCompressLevel.Caption=Kompressions Stufe:
+MainForm.lblFaster.Caption=Schneller
+MainForm.lblBetter.Caption=Besser
+MainForm.lblLanguage.Caption=Sprache wählen:
+MainForm.btnMultiPck.Caption=MultiPacken
+
+;About tab
+MainForm.tbsAbout.Caption=Über
+MainForm.lblReleaseCap.Caption=Release:
+MainForm.lblBuildCap.Caption=Build:
+MainForm.lblWWW.Caption=WWW:
+MainForm.lblEMail.Caption=E-Mail:
+MainForm.lblIONT.Caption=upxshell.sf.net
+MainForm.lblUPX.Caption=upx.sf.net
+MainForm.lblIONTmail.Caption=efsoft@ukrpost.net
+MainForm.lblBlackDexMail.Caption=Mail an BlackDex
+MainForm.lblBlaineMail.Caption=Mail an Blaine
+
+;Help tab
+MainForm.tbsHelp.Caption=Hilfe
+MainForm.btnHelp.Caption=Hilfe
+
+;Update Tab --NEW NEW NEW--
+MainForm.lblOnlineVersion.Caption=-N/A-
+MainForm.lblReleaseDateCap.Caption=
+MainForm.lblReleaseDate.Caption=-N/A-
+MainForm.lblDownloadCap.Caption=Download Seite:
+MainForm.lblDownload.Caption=-N/A-
+
+;Setup Form
+SetupForm.chkScramble.Caption=Benutze Datei Verschlüsselung
+SetupForm.btnScramble.Caption=Verschlüsseln
+SetupForm.chkIntegrate.Caption=Im Kontextmenü integrieren
+SetupForm.lblAdvacedOpts.Caption=Erweiterte UPX Optionen:
+SetupForm.chkResources.Caption=Ressourcen packen
+SetupForm.chkExports.Caption=Exporte packen
+SetupForm.chkRelocs.Caption=Strip relocations
+SetupForm.chkForce.Caption=Starke Kompression
+SetupForm.lblPriority.Caption=Packer Priorität:
+SetupForm.cmbPriority.0=GERING
+SetupForm.cmbPriority.1=NORMAL (Default)
+SetupForm.cmbPriority.2=HOCH
+SetupForm.cmbPriority.3=REALZEIT
+SetupForm.lblIcons.Caption=Icons:
+SetupForm.cmbIcons.0=Alle außer 1.Verzeichnis
+SetupForm.cmbIcons.1=Alle außer 1.Icon
+SetupForm.cmbIcons.2=Kein Komprimieren
+SetupForm.lblCommands.Caption=Zusätzliche UPX Parameter:
+SetupForm.chkCommands.Caption=Parameter speichern
+SetupForm.btnOk.Caption=Ok
+SetupForm.chkCompression.Caption=Zusätzliche Kompression
+;--NEW NEW NEW--
+SetupForm.lblUPX2Only.Caption=Nur UPX v1.9x:
+
+;MultiPack Form
+MultiForm.grpSearch.Caption=Arbeits Verzeichnis:
+MultiForm.lblDir.Caption=keine Angaben gemacht
+MultiForm.btnBrowse.Caption=&Anzeigen
+MultiForm.chkRecurse.Caption=&Einschließlich Unterverzeichnisse
+MultiForm.chkAll.Caption=A&lle
+MultiForm.lblCurrent.Caption=Fortschritt aktuelle Datei:
+MultiForm.lblOverall.Caption=Gesamter Fortschritt:
+MultiForm.btnScan.Caption=&Dateien
+MultiForm.btnPack.Caption=&Packen
+MultiForm.btnExit.Caption=&Beenden
+
+;TreeView Form
+TreeViewForm.lblSelect.Caption=Wähle Verzeichnis:
+TreeViewForm.btnOK.Caption=OK
+TreeViewForm.btnCancel.Caption=Abbruch
+
+;Const_Messages
+msg[001]=Kein Zugriff auf Datei. Datei ist bereits geöffnet
+msg[002]=Dateiattribut ist "Nur Lesen". Attribut wird jetzt zurückgesetzt - WEITER ?
+msg[003]=Beste
+msg[004]=Datei wird wahrscheinlich nicht gepackt. Verschlüsselung starten?
+msg[005]= (in 
+msg[006]= Sekunden)
+msg[007]=entpacken
+msg[008]=packen
+msg[009]=Keine Datei genannt zum 
+msg[010]=N/A
+msg[011]=Kein Verzeichnis gewählt
+msg[012]=...Update fehlgeschlagen :-(
+msg[013]=Keine Verbindung zum Update Server
+msg[014]=Neuere Version wurde auf dem Server gefunden!
+msg[015]=Prüfe auf Update ....
+msg[016]=Einlesen der Update Information...
+msg[017]=Datei erfolgreich gepackt
+msg[018]=Datei erfolgreich entpackt
+msg[019]=Datei gepackt mit Warnungen
+msg[020]=Datei entpackt mit Warnungen
+msg[021]=Fehler aufgetreten. Datei nicht gepackt
+msg[022]=Fehler aufgetreten. Datei nicht entpackt
+msg[023]= & geteset
+msg[024]= & getestet w/Warnungen
+msg[025]= & Fehler beim Testen
+msg[026]=UPX meldete folgenden Fehler: 
+msg[027]= & verschlüsselt
+msg[028]=...Update gefunden
+msg[029]=...keine Updates gefunden
+msg[030]=OK
+msg[043]=(Ent)Packen mit UPX

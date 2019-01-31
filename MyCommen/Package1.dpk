@@ -1,0 +1,54 @@
+package Package1;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  dbrtl,
+  vcldb,
+  adortl,
+  VclSmp,
+  vclx,
+  IndyCore,
+  IndySystem,
+  IndyProtocols;
+
+contains
+  UorderAccess in 'UorderAccess.pas',
+  UOrderExcel in 'UOrderExcel.pas',
+  UOrderFile in 'UOrderFile.pas',
+  UOrderString in 'UOrderString.pas',
+  UOrderSystem in 'UOrderSystem.pas',
+  Upublic in 'Upublic.pas',
+  USqlServer in 'USqlServer.pas',
+  USysConst in 'USysConst.pas',
+  UFtpServer in 'UFtpServer.pas',
+  UFtpClient in 'UFtpClient.pas',
+  sevenzip in '½âÑ¹µ¥Ôª\sevenzip.pas',
+  UOrderInt in 'UOrderInt.pas',
+  UOrderXml in 'UOrderXml.pas';
+
+end.
